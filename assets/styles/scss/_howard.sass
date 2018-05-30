@@ -1,0 +1,251 @@
+/*
+/* Principal Stylesheet for Howard Center
+/*
+
+
+/*********************
+/* COLORS  &  MIXINS
+/*********************
+
+@import url('https://fonts.googleapis.com/css?family=Slabo+13px')
+
+$headingStack: 'Slabo 13px', serif
+
+// Colors
+$lightblue: #e5ebec
+$blue: #0b3b49
+$greenblue: #007d8b
+$orange: #ffa400
+$orange-red: #ef7622
+$red: #ff3a1e
+$olive: #8c8c49
+
+// Button Mixims
+=bluebutton
+  background: rgba(1,100,153,0.79)
+  font-size: 1.5rem
+  color: #FFFFFF
+  border: 2px solid rgb(1,100,153)
+  border: 2px solid rgba(1,100,153,0.79)
+  -webkit-background-clip: padding-box
+  /* for Safari */
+  background-clip: padding-box
+  &:hover
+    background: transparent
+    border: 2px solid rgb(1,100,153)
+    border: 2px solid rgba(1,100,153,0.79)
+    -webkit-background-clip: padding-box
+    /* for Safari */
+    background-clip: padding-box
+    color: $blue
+
+=whitebutton
+  background: rgba(255,255,255,0.98)
+  color: $orange
+  font-size: 1.5rem
+  border: 2px solid #fff
+  &:hover
+    background: transparent
+    border: 2px solid #fff
+    color: #fff
+
+=hollowbutton
+  background-color: transparent
+  border: 1px solid $orange
+  padding: .85rem 1rem
+  color: #494949
+  &:hover
+    background-color: rgba(239, 122, 35, 0.41)
+    color: #fff
+
+
+=cssTransition($secs)
+  -webkit-transition: all $secs ease-in-out
+  -moz-transition: all $secs ease-in-out
+  -o-transition: all $secs ease-in-out
+  -ms-transition: all $secs ease-in-out
+  transition: all $secs ease-in-out
+
+=arrow($size, $color)
+  border-top: $size solid transparent
+  border-bottom: $size solid transparent
+  border-left: $size solid $color
+  display: inline-block
+  height: 0
+  width: 0
+
+/*********************
+/* GENERAL STYLES
+/*********************
+
+*
+  +cssTransition(.3s)
+
+// Sets REM root size to 16px
+html
+  font-size: 100%
+
+body
+  color: $blue
+
+/*********************
+/* LINK STYLES
+/*********************
+a, a:visited
+  // Mobile tap color
+  &:link
+    //Highlight links on iOS, Similar to :hover for mobile devices.
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3)
+  &:hover
+    color: rgba(1, 86, 132, 0.7)
+
+// Default Button
+.button
+  +bluebutton
+  .arrow
+    +arrow(8px, #fff)
+  &:hover
+    .arrow
+      +arrow(8px, $blue)
+
+/*********************
+/* H1, H2, H3, H4, H5 P STYLES
+/*********************
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5
+  font-family: $headingStack
+  font-weight: bold
+  color: $blue
+
+  // Removing text decoration from all headline links
+  a
+    text-decoration: none
+
+h1, .h1
+  line-height: 2.8rem
+
+h2, .h2
+
+h3, .h3
+
+h4, .h4
+
+h5, .h5
+
+p
+  line-height: 1.5rem
+
+ul.check
+  list-style: none
+  margin-left: 0
+  li
+    padding-left: 35px
+    background: url(../images/greencheck.png) no-repeat 0px 2px
+    background-size: 27px
+    font-weight: bold
+    margin-bottom: .25rem
+
+blockquote
+  font-size: 1.2rem
+  font-weight: 300
+  font-style: italic
+  margin: 0 0 2rem
+  position: relative
+  &:after
+    content: "\0022"
+    position: absolute
+    top: -6px
+    left: -4px
+    font-size: 3rem
+
+
+/********************************/
+// HEADER
+/********************************/
+
+// NAVIGATION
+#menu-utility-links-1
+  li
+    padding: .5rem 0
+    a
+      font-weight: bold
+      color: $blue
+      font-size: .9rem
+      padding: 0 .5rem
+      border-right: 2px solid #0b3b49
+  li:last-child
+    a
+      border-right: 0
+
+li.portal a, li.donate a
+    padding: .35rem .75rem
+    border-radius: 15px
+    margin: 5px
+    font-weight: bold
+    text-transform: uppercase
+
+li.portal a
+  background: #fff
+  color: #0b3b49
+  border: 1px solid #0b3b49
+  &:hover
+    background: $blue
+    color: #fff
+
+li.donate a
+    background: $greenblue
+    color: #fff
+    &:hover
+      background: $blue
+
+
+
+.headerMain
+  height: 175px
+  img.logo
+    width: 360px
+    margin-top: 15px
+  .helpNow, .mainNumber
+    width: 295px
+    border-radius: 50px
+    padding: .5rem
+    float: left
+    margin: 80px 20px 0 0
+    text-align: center
+    span
+      display: block
+      font-size: 1.2rem
+      text-align: center
+      float: left
+      margin-left: 30px
+      &:first-child
+        font-family: $headingStack
+      &.number
+        font-size: 1.75rem
+        font-weight: 900
+        margin-top: -7px
+        margin-left: 15px
+  .helpNow
+    background: $red url('../images/First-Call-4c.png') no-repeat top right
+    color: #fff
+    background-size: contain
+    a
+      color: #fff
+  .mainNumber
+    background: $lightblue
+    color: $blue
+    .mainEmail
+      border-left: 1px solid #7196a0
+      float: right
+      height: 50px
+      font-size: 1rem
+      padding-left: 1px
+      font-family: $headingStack
+      width: 75px
+      margin: -23px 0 0 10px
+      i
+        display: block
+        font-size: 2rem
+        line-height: 1rem
+
+.megaMenu
+  background-color: $greenblue

@@ -1,0 +1,72 @@
+/******************************************************************
+ *
+ *Stylesheet: Main Stylesheet
+ *
+ *Here's where the magic happens. Here is where you import
+ *all of your Sass files so they can compile into one
+ *CSS file.
+ *
+ ******************************************************************
+
+// Import local Foundation overrides - Don't link to Bower version as it will be overwritten whenever updated
+@import settings
+
+// Import foundation.scss from vendor files
+@import ../../../node_modules/foundation-sites/scss/foundation
+
+// Import Motion-UI from vendor files
+@import ../../../node_modules/motion-ui/src/motion-ui
+
++motion-ui-transitions
++motion-ui-animations
+
+// Select the components you want to use
++foundation-global-styles
+
+// Select the grid you would like to use
+// @include foundation-grid;
+// @include foundation-flex-grid;
++foundation-xy-grid-classes
+
++foundation-flex-classes
++foundation-typography
++foundation-forms
++foundation-button
++foundation-accordion
++foundation-accordion-menu
++foundation-badge
++foundation-breadcrumbs
++foundation-button-group
++foundation-callout
++foundation-card
++foundation-close-button
++foundation-menu
++foundation-menu-icon
++foundation-drilldown-menu
++foundation-dropdown
++foundation-dropdown-menu
++foundation-responsive-embed
++foundation-label
++foundation-media-object
++foundation-off-canvas
++foundation-orbit
++foundation-pagination
++foundation-progress-bar
++foundation-slider
++foundation-sticky
++foundation-reveal
++foundation-switch
++foundation-table
++foundation-tabs
++foundation-thumbnail
++foundation-title-bar
++foundation-tooltip
++foundation-top-bar
++foundation-visibility-classes
++foundation-float-classes
+
+// Import your custom styles
+@import global
+
+// Import Howard Styles
+@import howard 
