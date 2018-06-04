@@ -10,6 +10,7 @@
 @import url('https://fonts.googleapis.com/css?family=Slabo+13px')
 
 $headingStack: 'Slabo 13px', serif
+$arial: 'Arial', sans-serif
 
 // Colors
 $lightblue: #e5ebec
@@ -249,3 +250,37 @@ li.donate a
 
 .megaMenu
   background-color: $greenblue
+
+.mega-menuIcon
+  position: absolute !important
+  top: 5px !important
+  left: 30px !important
+  width: 125px !important
+  z-index: 100
+
+.mega-menuHeader
+    background: $orange-red !important
+    width: 100% !important
+    li.mega-menu-item
+      padding: 30px 0 2px 0 !important
+      h4
+        color: #fff !important
+        font-size: 1.5rem !important
+        padding-left: 160px !important
+        span
+          font-size: 1rem
+          font-family: $arial
+          text-transform: uppercase
+          font-weight: normal
+
+// Menu items in a menu widget in the mega menu grid
+li.mega-menu-item.widget_nav_menu ul li
+  border-bottom: 1px solid #809da4 !important
+  padding: .4rem 0 !important
+  a
+    text-transform: uppercase !important
+    font-weight: 700 !important
+    font-size: 1.15rem
+    +cssTransition(.3s)
+    &:hover
+      color: #a4bcc2 !important
