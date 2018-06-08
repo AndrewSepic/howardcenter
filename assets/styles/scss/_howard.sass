@@ -158,6 +158,21 @@ blockquote
     left: -4px
     font-size: 3rem
 
+select
+  border: 1px solid $greenblue
+  color: $blue
+
+.search
+  position: relative
+  input
+    text-indent: 32px
+    border-radius: 25px
+    border-color: $greenblue
+  .fi-magnifying-glass
+    position: absolute
+    left: 12px
+    font-size: 1.5rem
+    color: $blue
 
 /********************************/
 // HEADER
@@ -365,9 +380,10 @@ body.home
     display: none
   .useIcons
     text-align: center
+    margin-top: 3rem
     &.grid-x > .large-1
       width: 11.33333%
-      padding: 19px
+      padding: 15px
     h4
       font-size: 1rem
       font-family: $arial
@@ -380,6 +396,23 @@ body.home
       font-family: $arial
     img.icon
       width: 75%
+    .icon-button
+      display: block
+      transition: .4s
+      &:hover
+        transform: translate(0, -10px)
+        h4, h5
+          color: #5d7075
+  h3.needHelp
+    text-align: center
+    margin: 4rem 0 2rem
+    font-family: $arial
+    font-size: 1.45rem
+    color: $greenblue
+    font-weight: normal
+  #bulletin
+    background-color: #f0f0e7
+
 
 
 
