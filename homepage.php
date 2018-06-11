@@ -94,43 +94,70 @@ get_header(); ?>
 						</div>
 
 						<!-- Bulleting Board -->
-						<div id="bulletin">
-
+						<div id="bulletin1" class="grid-x grid-padding-x">
+							<div class="cell small-12 medium-12 large-12">
+								<h3 class="bulletinHeading">Bulletin Board</h3>
+							</div>
 							<!-- First Row -->
+							<?php $args = array('post_type' => 'bulletin_post_type' );
+										$the_query = new WP_Query( $args );
 
-							<div class="grid-x grid-padding-x">
+									// The Loop
+									if ( $the_query->have_posts() ) {
+									    while ( $the_query->have_posts() ) {
+												$the_query->the_post();
+												// If first post add grid offset
+											//	if( 0 == $the_query->current_post ) { ?>
+														<!-- <div class="cell small-6 medium-4 large-4 large-offset-1"> -->
+												<?php //} else {
+													// return to normal markup
+													?><div class="cell small-6 medium-4 large-4">	<?php
+												//} ?>
+															<a href="<?php the_field('bulletin_link'); ?>" class="bulletinLink">
 
-								<div class="cell small-6 medium-4 large-3">
+																	<?php // Return the bulletin Image
+																	echo get_the_post_thumbnail( $page->ID, 'bulletin-featured' );
 
-								</div>
-
-								<div class="cell small-6 medium-4 large-3">
-
-								</div>
-
-								<div class="cell small-6 medium-4 large-3">
-
-								</div>
+																	// Post Info for Hover State ?>
+																	<div class="post-info <?php the_field('bulletin_color');?>">
+																		<?php the_content();?>
+																	</div>
+															</a>
+									        </div> <?php
+									    }
+									    /* Restore original Post Data */
+									    wp_reset_postdata();
+									} else {
+									    // no posts found
+									}
+									?>
 
 							</div>
 
 							<!-- Second Row -->
+							<div id="bulletin2" class="grid-x grid-padding-x">
 
-							<div class="grid-x grid-padding-x">
+									<div class="cell small-6 medium-4 large-4 jobs">
+										<div>
+											<h3>Join Our Team. <br/> Help Your Community.</h3>
+											<ul>
+												<li><a href="#">Case Manager - Safe Recovery</a></li>
+												<li><a href="#">Job Title Number 2</a></li>
+												<li><a href="#">Ovenight House Leader</a></li>
+											</ul>
+											<a class="button orange small">Apply Now</a>
+										</div>
+									</div>
 
-								<div class="cell small-6 medium-4 large-3">
+									<div class="cell small-6 medium-4 large-4 directions">
+
+									</div>
+
+									<div class="cell small-6 medium-4 large-4 twitter">
+
+									</div>
 
 								</div>
-
-								<div class="cell small-6 medium-4 large-3">
-
-								</div>
-
-								<div class="cell small-6 medium-4 large-3">
-
-								</div>
-
-							</div>
 
 						</div>
 

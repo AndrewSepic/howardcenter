@@ -24,7 +24,7 @@ $olive: #8c8c49
 // Button Mixims
 =bluebutton
   background: rgba(1,100,153,0.79)
-  font-size: 1.5rem
+  font-size: 1.25rem
   color: #FFFFFF
   border: 2px solid rgb(1,100,153)
   border: 2px solid rgba(1,100,153,0.79)
@@ -40,15 +40,17 @@ $olive: #8c8c49
     background-clip: padding-box
     color: $blue
 
-=whitebutton
-  background: rgba(255,255,255,0.98)
-  color: $orange
-  font-size: 1.5rem
-  border: 2px solid #fff
+=orangebutton
+  background: $orange-red
+  color: #fff
+  border: 2px solid $orange-red
+  //font-size: 1.25rem
+  //padding: .5rem .75rem
+  font-weight: bold
   &:hover
-    background: transparent
-    border: 2px solid #fff
-    color: #fff
+    background: #fff
+    border: 2px solid $orange-red
+    color: $orange-red
 
 =hollowbutton
   background-color: transparent
@@ -108,6 +110,10 @@ a, a:visited
   &:hover
     .arrow
       +arrow(8px, $blue)
+
+// Orange Button
+.button.orange
+  +orangebutton
 
 /*********************
 /* H1, H2, H3, H4, H5 P STYLES
@@ -410,8 +416,77 @@ body.home
     font-size: 1.45rem
     color: $greenblue
     font-weight: normal
-  #bulletin
+  #bulletin1
     background-color: #f0f0e7
+    margin-top: 4rem
+    padding: 3rem 0
+    h3.bulletinHeading
+      text-align: center
+      margin-bottom: 2rem
+      font-size: 1.75rem
+    .cell a
+      position: relative
+      display: block
+      border-radius: 7px
+      overflow: hidden
+      .post-info
+        visibility: hidden
+        opacity: 0
+        position: absolute
+        text-align: center
+        padding: 2rem
+        top: 0
+        font-size: 1.35rem
+        font-family: $headingStack
+        height: 364px
+        p
+          line-height: 1.75rem
+          top: 35%
+          position: relative
+        &.Blue
+          background-color: $blue
+          color: #fff
+        &.Orange
+          background-color: $orange
+          color: $blue
+        &.Red
+          background-color: $red
+          color: #fff
+        &.Orange.red
+          background-color: $orange-red
+          color: #blue
+        &.Green.blue
+          background-color: $greenblue
+          color: $blue
+        &.Olive
+          background-color: $olive
+          color: #fff
+      &:hover .post-info
+        visibility: visible
+        opacity: 1
+  #bulletin2
+    background-color: #f0f0e7
+    padding: 0 0 2rem
+    .cell.jobs > div
+      background: #fff
+      border: 1px solid #dcdcdc
+      border-radius: 7px
+      padding: 2rem
+      h3
+        font-weight: normal
+      ul
+        list-style-type: none
+        margin: 1rem 0 2rem
+        li
+          padding: .25rem 0
+          a
+            font-weight: bold
+            color: $greenblue
+            font-size: 1.25rem
+            text-decoration: underline
+            &:hover
+              color: $blue
+
 
 
 
