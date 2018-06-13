@@ -389,7 +389,7 @@ body.home
     margin-top: 3rem
     &.grid-x > .large-1
       width: 11.33333%
-      padding: 15px
+      padding: 10px
     h4
       font-size: 1rem
       font-family: $arial
@@ -467,7 +467,7 @@ body.home
   #bulletin2
     background-color: #f0f0e7
     padding: 0 0 2rem
-    .cell.jobs > div
+    .cell.jobs > div, .cell.twitter > div
       background: #fff
       border: 1px solid #dcdcdc
       border-radius: 7px
@@ -486,6 +486,79 @@ body.home
             text-decoration: underline
             &:hover
               color: $blue
+    .cell.directions
+      h4
+        font-weight: normal
+        text-align: center
+      .mapCircle
+        border-radius: 382px
+        border: 1px solid #dcdcdc
+        overflow: hidden
+        width: 363px
+        margin: 0 auto
+        position: relative
+        background-color: $orange-red
+        img
+          opacity: 1
+        &:hover img
+          opacity: .6
+    .cell.twitter
+      .timeline-Widget ol.timeline-TweetList .timeline-Tweet-media
+        display: none
+      li#do-etfw-2
+        list-style-type: none
+
+
+
+/********************************/
+// FOOTER
+/********************************/
+
+.top-footer
+  background-color: $blue
+  padding: 2rem 0
+  color: #fff
+  a h4
+    color: #fff
+    font-weight: normal
+    text-align: center
+    margin-bottom: 0
+    padding: .75rem 0
+    border-right: 1px solid #406c77
+  .cell:last-child a h4
+    border-right: 0
+
+.colorBar
+  background: url('../images/footer-color-bar.jpg') repeat top left
+  height: 28px
+  background-size: contain
+  border-top: 1px solid #fff
+
+.bottom-footer
+  padding: 2rem 2rem 0
+  text-transform: uppercase
+  h2.widgettitle
+    font-family: $arial
+    font-size: 1rem
+    text-transform: uppercase
+  p
+    font-size: .8rem
+    line-height: 1rem
+    font-weight: bold
+  a
+    font-weight: bold
+  img.footerLogo
+    margin-bottom: 1rem
+  .textwidget:first-child p
+    margin-left: 7rem
+  .copy
+    border-top: 1px solid #ececec
+    p.copyright
+      margin: 0
+      padding: .75rem 0
+      font-weight: normal
+
+
 
 
 

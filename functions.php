@@ -49,7 +49,7 @@ require_once(get_template_directory().'/functions/login.php');
 
 //Setup Custom image size
 add_action( 'after_setup_theme', 'hc_theme_setup' );
-function my_theme_setup() {
+function hc_theme_setup() {
    //add_image_size( '', 300 ); // 300 pixels wide (and unlimited height)
    add_image_size( 'bulletin-featured', 370, 300, true ); // (cropped)
 }
@@ -112,3 +112,43 @@ function hc_bulletin_post_type() {
 
 }
 add_action( 'init', 'hc_bulletin_post_type', 0 );
+
+//Registers new SIDEBAR for twitter feed
+function custom_sidebar_init() {
+	register_sidebar( array(
+		'name'          => __( 'Twitter Feed', 'theme_text_domain' ),
+		'id'            => 'twitter',
+		'description'   => '',
+	  'class'         => '',
+		'before_widget' => '<li id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</li>',
+		'before_title'  => '<h2 class="widgettitle">',
+		'after_title'   => '</h2>',
+	 ) );
+
+   register_sidebar( array(
+     'name'          => __( 'Footer', 'theme_text_domain' ),
+     'id'            => 'footer',
+     'description'   => '',
+     'class'         => '',
+     'before_widget' => '<div class="small-12 medium-6 large-3 cell">',
+     'after_widget'  => '</div>',
+     'before_title'  => '<h2 class="widgettitle">',
+     'after_title'   => '</h2>',
+    ) );
+}
+add_action( 'widgets_init', 'custom_sidebar_init' );
+
+// Sets callback for Twitter Sidebar
+function twitter_sidebar() {
+  if ( function_exists('dynamic_sidebar') && is_active_sidebar('twitter') ) {
+    dynamic_sidebar('twitter');
+ 	}
+};
+
+// Sets callback for Footer sidebar
+function footer_sidebar() {
+  if ( function_exists('dynamic_sidebar') && is_active_sidebar('footer') ) {
+    dynamic_sidebar('footer');
+ 	}
+};

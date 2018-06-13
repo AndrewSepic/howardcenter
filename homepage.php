@@ -150,11 +150,19 @@ get_header(); ?>
 									</div>
 
 									<div class="cell small-6 medium-4 large-4 directions">
-
+											<h4>Directions & Locations</h4>
+											<a href="#">
+												<div class="mapCircle">
+													<img src="<?php  echo get_template_directory_uri(); ?>/assets/images/map.png" alt="Howard Center Maps"/>
+												</div>
+											</a>
 									</div>
 
 									<div class="cell small-6 medium-4 large-4 twitter">
-
+										<div>
+											<h3>Twitter Feed</h3>
+											<?php twitter_sidebar(); ?>
+										</div>
 									</div>
 
 								</div>
