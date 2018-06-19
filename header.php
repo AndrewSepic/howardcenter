@@ -58,16 +58,23 @@
 
              <div class="cell small-6">
 
-               <div class="helpNow">
-                 <span>Need Help Now?</span>
-                 <span itemprop="telephone" class="number"><a href="tel:8024887777">802-488-7777</a></span>
+              <a href="tel:8024887777">
+                <div class="helpNow">
+                   <span>Need Help Now?</span>
+                   <span itemprop="telephone" class="number">802-488-7777</span>
+
                  <!-- <img class="firstCall" src="<?php //echo get_template_directory_uri(); ?>/assets/images/First-Call-4c.png" alt="Call for Help Now"/> -->
-               </div>
+                </div>
+               </a>
 
                <div class="mainNumber">
                  <span>Main Number</span>
                  <span itemprop="telephone" class="number"><a href="tel:8024886000">802-488-6000</a></span>
-                 <div class="mainEmail">Email <i class="fi-mail"></i></div>
+                 <a href="mailto:info@howardcenter.org"/>
+                  <div class="mainEmail">
+                    Email <i class="fi-mail"></i>
+                  </div>
+                </a>
                </div>
 
              </div>

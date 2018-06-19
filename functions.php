@@ -46,12 +46,39 @@ require_once(get_template_directory().'/functions/login.php');
 // Customize the WordPress admin
 // require_once(get_template_directory().'/functions/admin.php');
 
+// Setup Advanced Custom Fields THeme Options page
+if( function_exists('acf_add_options_page') ) {
+
+  $option_page = acf_add_options_page(array(
+		'page_title' 	=> 'Howard Center Homepage Options',
+		'menu_title' 	=> 'HC Options',
+		'menu_slug' 	=> 'hc-settings',
+		'capability' 	=> 'edit_posts',
+		'redirect' 	=> false
+	));
+
+  acf_add_options_sub_page(array(
+    'page_title' 	=> 'Howard Center Homepage',
+    'menu_title'	=> 'Homepage',
+    'parent_slug'	=> 'hc-settings',
+  ));
+
+
+  acf_add_options_sub_page(array(
+		'page_title' 	=> 'Howard Center Footer',
+		'menu_title'	=> 'Footer',
+		'parent_slug'	=> 'hc-settings',
+	));
+
+}
+
 
 //Setup Custom image size
 add_action( 'after_setup_theme', 'hc_theme_setup' );
 function hc_theme_setup() {
    //add_image_size( '', 300 ); // 300 pixels wide (and unlimited height)
-   add_image_size( 'bulletin-featured', 370, 300, true ); // (cropped)
+   add_image_size( 'bulletin-featured', false ); //
+   add_image_size( 'page-header', 870, 300, true );
 }
 
 

@@ -116,7 +116,7 @@ get_header(); ?>
 															<a href="<?php the_field('bulletin_link'); ?>" class="bulletinLink">
 
 																	<?php // Return the bulletin Image
-																	echo get_the_post_thumbnail( $page->ID, 'bulletin-featured' );
+																	 the_post_thumbnail('bulletin-featured');
 
 																	// Post Info for Hover State ?>
 																	<div class="post-info <?php the_field('bulletin_color');?>">
@@ -139,13 +139,30 @@ get_header(); ?>
 
 									<div class="cell small-6 medium-4 large-4 jobs">
 										<div>
-											<h3>Join Our Team. <br/> Help Your Community.</h3>
+											<h3><?php the_field('employment_widget_title', 'option');?></h3>
 											<ul>
-												<li><a href="#">Case Manager - Safe Recovery</a></li>
-												<li><a href="#">Job Title Number 2</a></li>
-												<li><a href="#">Ovenight House Leader</a></li>
+												<?php
+												// check if the repeater field has rows of data
+												if( have_rows('job_postings', 'option') ):
+
+												 	// loop through the rows of data
+												    while ( have_rows('job_postings', 'option') ) : the_row();
+
+												        ?><li>
+																		<a href="<?php the_sub_field('link', 'option');?>"/> <?php the_sub_field('job_title', 'option');?></a>
+																	</li>
+																	<?php
+
+												    endwhile;
+
+												else :
+
+												    // no rows found
+
+												endif; ?>
+
 											</ul>
-											<a class="button orange small">Apply Now</a>
+											<a class="button orange small" href="<?php the_field('button_link', 'option');?>"><?php the_field('job_button_text','option');?></a>
 										</div>
 									</div>
 
