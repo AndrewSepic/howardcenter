@@ -200,6 +200,8 @@ select
       font-size: .9rem
       padding: 0 .5rem
       border-right: 2px solid #0b3b49
+      &:hover
+        color: #457786
   li:last-child
     a
       border-right: 0
@@ -534,6 +536,8 @@ body.home
     h1.page-title
       font-size: 2.5rem
   .entry-content
+    h2
+      font-size: 2rem
     h3
       font-size: 1.25rem
       text-transform: uppercase
@@ -547,7 +551,165 @@ body.home
         margin: 1rem 1.5rem 1.5rem 0
 
 
+/********************************/
+// SIDEBAR
+/********************************/
 
+
+.sidebar
+  .menu .active a
+    color: rgba(1, 86, 132, 0.7)
+    position: relative
+    text-indent: 30px
+    font-weight: bold
+    &:before
+      border-bottom: 10px solid rgba(0, 0, 0, 0)
+      border-left: 10px solid #296a7d
+      border-top: 10px solid rgba(0, 0, 0, 0)
+      content: ""
+      position: absolute
+      top: 7px
+      left: 66px
+      z-index: 100
+  div.ds
+    position: relative
+    &:before
+      content: ""
+      background: url('../images/DS-icon.png')
+      background-size: 70px 70px
+      background-repeat: no-repeat
+      width: 70px
+      height: 70px
+      line-height: 60px
+      vertical-align: middle
+      position: absolute
+      z-index: 40
+      top: -10px
+      left: -15px
+    h4
+      background: $orange-red
+      color: #fff !important
+      font-size: 1.5rem !important
+      font-family: $headingStack
+      position: relative
+      border-top-left-radius: 60px
+      border-bottom-left-radius: 60px
+      margin-bottom: -20px
+      z-index: 20
+      text-indent: 55px
+      padding: .5rem
+      span
+        font-size: 1rem
+        font-family: $arial
+        text-transform: uppercase
+        font-weight: normal
+  // Global sidebar
+  ul
+    li.menu-header, li.who-header
+      font-size: 1.35rem
+      font-family: $headingStack
+      padding-top: 2rem
+      font-weight: bold
+    li
+      display: block
+      width: 100%
+      a
+        text-transform: uppercase
+        padding-left: 4rem
+        &:hover
+          text-indent: 2px
+    li.who-child a
+      background: url('../images/children-icon.png') no-repeat 25px 5px
+      background-size: 30px
+    li.who-adult a
+      background: url('../images/adult-icon.png') no-repeat 25px 5px
+      background-size: 30px
+    li.who-family a
+      background: url('../images/families-icon.png') no-repeat 25px 5px
+      background-size: 30px
+      padding-bottom: 2rem
+  // DS Sidebar
+  ul#menu-ds-sidebar
+    li.menu-header
+      background-color: #fef5f0
+    li a
+        background-color: #fef5f0
+    li.who-header
+      background-color: #fcddc8
+      padding-top: 1rem
+      a
+        background-color: #fcddc8
+    li.who-child a, li.who-adult a, li.who-family a
+      background-color: #fcddc8
+
+
+// #mega-menu-item-12 .mega-menuHeader
+//   background: $olive
+// #mega-menu-item-13 .mega-menuHeader
+//   background: $orange
+.mega-menuHeader
+    width: 100%
+    li.mega-menu-item
+      padding: 30px 0 2px 0 !important
+      h4
+
+
+.mega-menuIcon
+  position: absolute !important
+  top: 5px !important
+  left: 30px !important
+  width: 150px !important
+  z-index: 100
+
+/********************************/
+//  STORIES SECTION
+/********************************/
+
+.hc-stories
+  background-color: $greenblue
+  padding: 4rem 2rem
+  color: #fff
+  h2
+    font-size: 1.5rem
+    color: #fff
+    margin-bottom: 1rem
+  .circleWrap
+    width: 275px
+    height: 275px
+    border-radius: 275px
+    overflow: hidden
+    background-size: cover
+  .large-5
+    position: relative
+    .story
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+  .large-offset-1
+    position: relative
+    blockquote
+      font-family: $headingStack
+      color: #fff
+      border-left: 0
+      position: absolute
+      top: 50%
+      transform: translateY(-50%)
+      font-size: 1.1rem
+      line-height: 1.4rem
+      &:after
+        top: 15px
+    span.author
+      font-size: 1.25rem
+      float: right
+      display: block
+      width: 70%
+      margin-top: 20px
+      position: relative
+      font-family: $arial
+      &:before
+        content: "~"
+        position: absolute
+        left: -17px
 
 
 /********************************/

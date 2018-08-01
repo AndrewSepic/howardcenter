@@ -120,7 +120,7 @@ function hc_bulletin_post_type() {
 		'description'           => __( 'Bulletin Items for HC\'s Homepage.', 'text_domain' ),
 		'labels'                => $labels,
 		'supports'              => array( 'title', 'editor', 'thumbnail' ),
-		'taxonomies'            => false,
+		'taxonomies'            => array( 'news' ),
 		'hierarchical'          => false,
 		'public'                => true,
 		'show_ui'               => true,
@@ -139,6 +139,8 @@ function hc_bulletin_post_type() {
 
 }
 add_action( 'init', 'hc_bulletin_post_type', 0 );
+
+
 
 //Registers new SIDEBAR for twitter feed
 function custom_sidebar_init() {
@@ -179,3 +181,4 @@ function footer_sidebar() {
     dynamic_sidebar('footer');
  	}
 };
+?>
