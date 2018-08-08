@@ -394,6 +394,8 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav
 /********************************/
 
 body.home
+  .inner-content
+    margin: 0
   header.article-header
     display: none
   .useIcons
@@ -571,11 +573,10 @@ body.home
       top: 7px
       left: 66px
       z-index: 100
-  div.ds
+  div.header
     position: relative
     &:before
       content: ""
-      background: url('../images/DS-icon.png')
       background-size: 70px 70px
       background-repeat: no-repeat
       width: 70px
@@ -587,7 +588,6 @@ body.home
       top: -10px
       left: -15px
     h4
-      background: $orange-red
       color: #fff !important
       font-size: 1.5rem !important
       font-family: $headingStack
@@ -603,6 +603,18 @@ body.home
         font-family: $arial
         text-transform: uppercase
         font-weight: normal
+    &.mh
+      &:before
+        background: url('../images/MH-icon.png')
+        background-size: 70px 70px
+      h4
+        background-color: $olive
+    &.ds
+      &:before
+        background: url('../images/DS-icon.png')
+        background-size: 70px 70px
+      h4
+        background: $orange-red
   // Global sidebar
   ul
     li.menu-header, li.who-header
@@ -641,7 +653,18 @@ body.home
         background-color: #fcddc8
     li.who-child a, li.who-adult a, li.who-family a
       background-color: #fcddc8
-
+  ul#menu-mh-sidebar
+    li.menu-header
+      background-color: #f3f3ec
+    li a
+      background-color: #f3f3ec
+    li.who-header
+      background-color: #e2e2d2
+      padding-top: 1rem
+      a
+        background-color: #e2e2d2
+    li.who-child a, li.who-adult a, li.who-family a
+      background-color: #e2e2d2
 
 // #mega-menu-item-12 .mega-menuHeader
 //   background: $olive
