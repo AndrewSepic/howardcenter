@@ -23,22 +23,12 @@ $olive: #8c8c49
 
 // Button Mixims
 =bluebutton
-  background: rgba(1,100,153,0.79)
+  background: $greenblue
   font-size: 1.25rem
   color: #FFFFFF
-  border: 2px solid rgb(1,100,153)
-  border: 2px solid rgba(1,100,153,0.79)
-  -webkit-background-clip: padding-box
-  /* for Safari */
-  background-clip: padding-box
   &:hover
-    background: transparent
-    border: 2px solid rgb(1,100,153)
-    border: 2px solid rgba(1,100,153,0.79)
-    -webkit-background-clip: padding-box
-    /* for Safari */
-    background-clip: padding-box
-    color: $blue
+    background: #2293a0
+    color: #fff
 
 =orangebutton
   background: $orange-red
@@ -104,16 +94,22 @@ a, a:visited
   // Mobile tap color
   &:link
     //Highlight links on iOS, Similar to :hover for mobile devices.
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0.3)
+    -webkit-tap-highlight-color: #3094b1
   &:hover
-    color: rgba(1, 86, 132, 0.7)
+    color: #206a80
+
+.entry-content a, p.tags a
+  color: #3094b1
+  &:hover
+    color: #206a80
 
 // Default Button
-.button
+a.button
   +bluebutton
   .arrow
     +arrow(8px, #fff)
   &:hover
+    color: #fff
     .arrow
       +arrow(8px, $blue)
 
@@ -205,6 +201,11 @@ select
   li:last-child
     a
       border-right: 0
+  li.gtranslate-parent
+    ul.dropdown-menu
+      list-style-type: none
+    a
+      padding: 0 1.25rem 0 .5rem
 
 li.portal a, li.donate a
     padding: .35rem .75rem
@@ -231,7 +232,7 @@ li.donate a
 
 
 .headerMain
-  height: 175px
+  padding-bottom: 1rem
   img.logo
     width: 360px
     margin-top: 15px
@@ -292,10 +293,13 @@ li.donate a
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav
   li#mega-menu-item-11
     max-width: 231px
+    background-color: $blue
   li#mega-menu-item-12
     max-width: 238px
+    background-color: $blue
   li#mega-menu-item-13
     max-width: 318px
+    background-color: $blue
   .mega-search
     .search-icon:before
       line-height: 49px !important
@@ -310,21 +314,69 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav
     padding-top: 10px
     line-height: 19px
     font-family: $headingStack
-  span
+  #mega-menu-item-11 span, #mega-menu-item-12 span, #mega-menu-item-13 span
     font-family: Arial, sans-serif
     text-transform: uppercase
     font-weight: normal
     padding-top: 10px
     font-size: .9rem
+  ul.sub-menu
+    padding-left: 20px
+    li:last-child
+      border-bottom: 0 !important
+
+#mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-131 .mega-search .search-icon:before
+  font-size: 1.35rem
+  display: block
+  margin-top: 5px
+// body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav > li.mega-menu-megamenu > ul.mega-sub-menu > li.mega-menu-item-14 h4.mega-block-title, #mega-menu-wrap-mega-nav #mega-menu-mega-nav > li.mega-menu-megamenu > ul.mega-sub-menu li.mega-menu-column > ul.mega-sub-menu > li.mega-menu-item-14 h4.mega-block-title
+//   color: $greenblue !important
 
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav
-  // DS header
+  // Mega Menu headers
   #mega-menu-item-11 .mega-menuHeader
     background: $orange-red
   #mega-menu-item-12 .mega-menuHeader
     background: $olive
   #mega-menu-item-13 .mega-menuHeader
     background: $orange
+  #mega-menu-item-14 .mega-menuHeader, #mega-menu-item-15 .mega-menuHeader
+    background: $greenblue
+  // I Need Help Now in Getting Started Col
+  #menu-getting-started-ds li.helpNow,   #menu-getting-started-mh li.helpNow,   #menu-getting-started-su li.helpNow, #menu-i-need-help li.helpNow, #menu-i-need-help-1 li.helpNow
+    color: #fff
+    border-radius: 9px
+    border-bottom: 0
+    display: inline-block
+    padding: 5px 10px
+  #menu-i-need-help li.helpNow
+    background-color: $greenblue
+    &:hover
+      background-color: scale-color($greenblue, $lightness: +14%)
+      color: #fff
+    a:hover
+      color: #fff
+  #menu-getting-started-ds li.helpNow
+    background-color: $orange-red
+    &:hover
+      background-color: scale-color($orange-red, $lightness: +14%)
+      color: #fff
+    a:hover
+      color: #fff
+  #menu-getting-started-mh li.helpNow
+    background-color: $olive
+    &:hover
+      background-color: scale-color($olive, $lightness: +14%)
+      color: #fff
+    a:hover
+      color: #fff
+  #menu-getting-started-su li.helpNow
+    background-color: $orange
+    &:hover
+      background-color: scale-color($orange, $lightness: +14%)
+      color: #fff
+    a:hover
+      color: #fff
   .mega-menuHeader
       width: 100%
       li.mega-menu-item
@@ -382,12 +434,17 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav
 // Languages
 #langWelcome
   width: 100%
-  height: 130px
   background-color: #e5f2f3
-  img
-    margin: 22px auto
-    display: block
-    width: 80%
+  padding: 1rem
+  text-align: center
+  ul
+    list-style-type: none
+    margin-bottom: 0
+    li
+      display: inline-block
+      padding: .5rem 1rem
+      font-size: 1.8rem
+      font-family: $headingStack
 
 /********************************/
 // HOMEPAGE SECTION
@@ -430,6 +487,30 @@ body.home
     font-size: 1.45rem
     color: $greenblue
     font-weight: normal
+  .help
+    ul.dropdown
+      text-indent: 32px
+      border-radius: 25px
+      border: 1px solid #007d8b
+      padding: .35rem
+      li:first-child
+        position: relative
+        width: 95%
+        font-weight: bold
+        &:after
+          border-right: 10px solid rgba(0, 0, 0, 0)
+          border-left: 10px solid rgba(0, 0, 0, 0)
+          border-top: 10px solid $blue
+          content: ""
+          position: absolute
+          top: 9px
+          right: 0
+          z-index: 100
+      li a
+        text-indent: 0
+        font-weight: normal
+        font-size: 1rem
+        padding: .5rem
   #bulletin1
     background-color: #f0f0e7
     margin-top: 4rem
@@ -508,7 +589,7 @@ body.home
         border-radius: 382px
         border: 1px solid #dcdcdc
         overflow: hidden
-        width: 363px
+        max-width: 363px
         margin: 0 auto
         position: relative
         background-color: $orange-red
@@ -531,12 +612,18 @@ body.home
   margin: 3rem 0
   h1, h2, h3, h4
     font-family: $arial
+  h1.entry-title.single-title
+    line-height: 4rem
   header.article-header
     margin-bottom: 1rem
+    h2
+      font-size: 2rem
     img
       margin-bottom: 1.5rem
     h1.page-title
       font-size: 2.5rem
+  article
+    margin: 2rem 0
   .entry-content
     h2
       font-size: 2rem
@@ -552,6 +639,9 @@ body.home
       &:first-child
         margin: 1rem 1.5rem 1.5rem 0
 
+//Accordion Styling in Content
+.accordion-title
+  font-size: 1.5rem
 
 /********************************/
 // SIDEBAR
@@ -559,20 +649,45 @@ body.home
 
 
 .sidebar
-  .menu .active a
-    color: rgba(1, 86, 132, 0.7)
-    position: relative
-    text-indent: 30px
-    font-weight: bold
-    &:before
-      border-bottom: 10px solid rgba(0, 0, 0, 0)
-      border-left: 10px solid #296a7d
-      border-top: 10px solid rgba(0, 0, 0, 0)
-      content: ""
-      position: absolute
-      top: 7px
-      left: 66px
-      z-index: 100
+  .menu
+    li
+      width: 100%
+      padding: 0 2rem 0 3.5rem
+      a
+        text-transform: uppercase
+        padding: .7rem 0
+        &:hover
+          text-indent: 2px
+    li.menu-item-has-children > a
+      border-bottom: 1px solid #adadad
+      position: relative
+      &:after
+        border-right: 10px solid rgba(0, 0, 0, 0)
+        border-left: 10px solid rgba(0, 0, 0, 0)
+        border-top: 10px solid #adadad
+        content: ""
+        position: absolute
+        top: 13px
+        right: 0
+        z-index: 100
+    .active > a
+      color: rgba(1, 86, 132, 0.7)
+      position: relative
+      font-weight: bold
+      background: transparent
+      padding-left: 20px
+      &:before
+        border-bottom: 10px solid rgba(0, 0, 0, 0)
+        border-left: 10px solid #296a7d
+        border-top: 10px solid rgba(0, 0, 0, 0)
+        content: ""
+        position: absolute
+        top: 7px
+        left: -15px
+        z-index: 100
+  .sub-menu
+    li
+      padding-left: 1rem
   div.header
     position: relative
     &:before
@@ -615,56 +730,119 @@ body.home
         background-size: 70px 70px
       h4
         background: $orange-red
+    &.su
+      &:before
+        background: url('../images/SU-icon.png')
+        background-size: 70px 70px
+      h4
+        background: $orange
+        font-size: 1.25rem !important
+    &.community h4
+      background: $blue
   // Global sidebar
-  ul
-    li.menu-header, li.who-header
-      font-size: 1.35rem
-      font-family: $headingStack
-      padding-top: 2rem
-      font-weight: bold
-    li
-      display: block
-      width: 100%
-      a
-        text-transform: uppercase
-        padding-left: 4rem
-        &:hover
-          text-indent: 2px
-    li.who-child a
-      background: url('../images/children-icon.png') no-repeat 25px 5px
-      background-size: 30px
-    li.who-adult a
-      background: url('../images/adult-icon.png') no-repeat 25px 5px
-      background-size: 30px
-    li.who-family a
-      background: url('../images/families-icon.png') no-repeat 25px 5px
-      background-size: 30px
-      padding-bottom: 2rem
+  li.menu-header, li.who-header
+    font-size: 1.35rem
+    font-family: $headingStack
+    padding-top: 2rem
+    font-weight: bold
+  li.who-child
+    background: url('../images/children-icon.png') no-repeat 55px 5px
+    background-size: 30px
+    padding-left: 5.5rem
+  li.who-adult
+    background: url('../images/adult-icon.png') no-repeat 55px 5px
+    background-size: 30px
+    padding-left: 5.5rem
+  li.who-family
+    background: url('../images/families-icon.png') no-repeat 55px 5px
+    background-size: 30px
+    padding-left: 5.5rem
+    padding-bottom: 2rem
+  li.who-child.active, li.who-adult.active, li.who-family.active
+    a
+      color: #fff
+      &:before
+        left: auto
+        right: -15px
+        top: 10px
   // DS Sidebar
+  ul#menu-our-organization-1,  ul#menu-in-the-community-1
+    background-color: #e0e8ea
+    li:first-child
+      padding-top: 2.5rem
+    li:last-child
+      padding-bottom: 2rem
+    .sub-menu li:first-child
+      padding-top: 1rem
+    .sub-menu li:last-child
+      padding-bottom: 1rem
   ul#menu-ds-sidebar
-    li.menu-header
-      background-color: #fef5f0
-    li a
-        background-color: #fef5f0
+    background-color: #fef5f0
     li.who-header
       background-color: #fcddc8
       padding-top: 1rem
       a
         background-color: #fcddc8
-    li.who-child a, li.who-adult a, li.who-family a
+    li.who-child, li.who-adult, li.who-family
       background-color: #fcddc8
+    li.who-child.active, li.who-adult.active, li.who-family.active
+      background-color: #f3a570
+  // MH Sidebar
   ul#menu-mh-sidebar
-    li.menu-header
-      background-color: #f3f3ec
-    li a
-      background-color: #f3f3ec
+    background-color: #f3f3ec
     li.who-header
       background-color: #e2e2d2
       padding-top: 1rem
       a
         background-color: #e2e2d2
-    li.who-child a, li.who-adult a, li.who-family a
+    li.who-child, li.who-adult, li.who-family
       background-color: #e2e2d2
+    li.who-child.active, li.who-adult.active, li.who-family.active
+      background-color: #b3b388
+  // SU Sidebar
+  ul#menu-su-sidebar
+    background-color: #ffedcc
+    li.who-header
+      background-color: #ffd384
+      padding-top: 1rem
+      a
+        background-color: #ffd384
+    li.who-child, li.who-adult, li.who-family
+      background-color: #ffd384
+    li.who-child.active, li.who-adult.active, li.who-family.active
+      background-color: #ffa400
+  // Side bar call out Call NOW
+  .callOut
+    background: $greenblue
+    padding: 1rem
+    color: #fff
+    text-align: center
+    width: 80%
+    border-radius: 50px
+    margin: 3rem auto 0
+    font-size: 1.35rem
+    line-height: 2rem
+    .title
+      display: block
+      text-transform: uppercase
+      font-size: 1.75rem
+      font-weight: bold
+    .phone
+      font-size: 2rem
+      font-weight: bold
+      color: #fff
+      display: block
+      margin: 10px 0
+    .email
+      font-size: 1.75rem
+      color: #fff
+      font-family: $headingStack
+      i
+        font-size: 2.25rem
+        padding-right: .5rem
+
+
+
 
 // #mega-menu-item-12 .mega-menuHeader
 //   background: $olive
@@ -886,6 +1064,11 @@ body.home
     margin-right: 10px
     a:hover img
       opacity: .7
+  ul.missionLogos li:first-child
+    width: 75%
+    margin-bottom: 1rem
+  ul.missionLogos li:last-child img
+    max-height: 67px
   ul.quickLinks li
     width: 45%
     float: left
@@ -893,10 +1076,100 @@ body.home
     margin: 0 .5rem .25rem 0
     a
       font-weight: normal
+  ul.adminLinks + p
+    text-transform: none
+    font-weight: normal
 
 
+/********************************/
+// DIRECTIONS & LOCATIONS TEMPLATE
+/********************************/
+body.page-template-directions-locations
+  .inner-content
+    margin-top: 0
+  .location
+    border-bottom: 1px solid #e4e4e4
+    margin: 1rem 0 1rem
+    min-height: 155px
+    span.circle
+      background: #0d88cd
+      color: #fff
+      height: 24px
+      border-radius: 30px
+      width: 24px
+      display: inline-block
+      text-align: center
+      font-weight: bold
+      float: left
+      margin: 1px 7px 0 0
+    h4
+      font-size: 1.25rem
+    p
+      line-height: 1.25rem
 
 
+/********************************/
+// WHO WE HELP PAGES
+/********************************/
 
+div.whowehelp
+  .entry-content h3
+    background-color: #809da3
+    color: #fff
+    position: relative
+    //text-indent: 33px
+    border-top-left-radius: 20px
+    // &:before
+    //   content: ""
+    //   position: absolute
+    //   height: 50px
+    //   width: 50px
+    //   background-color: $blue
+    //   border-radius: 30px
+    //   left: -10px
+    //   top: -7px
+
+.card
+  width: 45%
+  margin-right: 2%
+  float: left
+  border: 0
+
+/********************************/
+// COMMUNITY ACCESS MEDIA
+/********************************/
+
+body.category-community-education-series
+  header.article-header
+    margin-bottom: .5rem
+    h2
+      font-size: 1.5rem
+  article
+    margin-bottom: 3rem
+  h3.series
+    margin-bottom: 2rem
+    border-bottom: 5px solid #ececde
+    i
+      padding-left: 15px
+
+body.category-community-education-series p.tags, .article-footer p.tags
+  font-size: .9rem
+  font-weight: bold
+  background-color: #f0f0e7
+  padding: .5rem
+  text-transform: uppercase
+  span
+    padding: 0 .5rem 0 0
+    border-radius: 3px
+    font-weight: normal
+    &.episode
+      display: inline-block
+      margin-left: .8rem
+
+.return
+  margin-top: 2rem
+
+.taxonomy-description
+  margin-top: 2rem
 
 

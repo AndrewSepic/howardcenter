@@ -79,6 +79,7 @@ function hc_theme_setup() {
    //add_image_size( '', 300 ); // 300 pixels wide (and unlimited height)
    add_image_size( 'bulletin-featured', false ); //
    add_image_size( 'page-header', 870, 300, true );
+   add_image_Size( 'edu-series', 290, 190, true);
 }
 
 
@@ -181,4 +182,43 @@ function footer_sidebar() {
     dynamic_sidebar('footer');
  	}
 };
+
+// Filter Archive title to remove 'Category'
+add_filter( 'get_the_archive_title', function ($title) {
+    if ( is_category() ) {
+            $title = single_cat_title( '', false );
+        } elseif ( is_tag() ) {
+            $title = single_tag_title( '', false );
+        } elseif ( is_author() ) {
+            $title = '<span class="vcard">' . get_the_author() . '</span>' ;
+        }
+    return $title;
+});
+
+// Customize Excerpt Length
+function custom_excerpt_length( $length ) {
+	return 30; //20 chars
+}
+add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+
+// Connects custom post template with template files
+// Gets Post category and connects it with custom post template
+
+add_filter('single_template', 'edu_series_template');
+
+function edu_series_template($single_template) {
+		global $post;
+
+				if ( in_category( 'community-education-series' )) {
+					$single_template = dirname( __FILE__ ) . '/single-edu-series.php';
+		}
+		return $single_template;
+};
+
+// Custom Shortcode for Foundation 6 Card elements
+function card_shortcode( $atts, $content = null ) {
+	return '<div class="card"><div class="card-section">' . $content . '</div></div>';
+}
+add_shortcode( 'block', 'card_shortcode' );
 ?>

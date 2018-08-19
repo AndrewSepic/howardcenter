@@ -1,0 +1,137 @@
+//
+// Mobile Styles for HC by Andrew@thinkupdesign.ca
+//
+
+
+// Large
+@include breakpoint(large down)
+  // Navigation
+  .megaMenu
+    background-color: #0b3b49
+    #mega-menu-wrap-mega-nav .mega-menu-toggle
+      margin-left: 1rem
+  body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav
+    li#mega-menu-item-11, li#mega-menu-item-12, li#mega-menu-item-13
+      max-width: unset
+
+// Medium Down
+@include breakpoint(medium down)
+  // Header
+  .headerMain
+    .helpNow, .mainNumber
+      margin: 20px 20px 0 0
+  // Homepage
+  body.home
+    .useIcons.grid-x > .large-1
+      width: 25%
+      padding: 5px
+    #bulletin1, #bulletin2
+      .cell
+        margin-bottom: 2rem
+    #bulletin1
+      padding: 3rem 0 0
+    #langWelcome
+      li
+        font-size: 1.35rem
+        padding: .5rem .75rem
+  // Footer
+  .top-footer
+    .newsletter h4
+      padding-left: 5%
+    .latest-news:after
+      content: none
+    .social
+      padding: 2rem 20% 0
+  .bottom-footer
+    .cell
+      margin-bottom: 2rem
+    .cell:nth-child(2)::after
+      content: none
+
+
+// Small Down
+@include breakpoint(small down)
+  // Homepage
+  body.home
+    .useIcons.grid-x > .large-1
+      width: 50%
+      padding: 5px
+    #bulleting1, #bulletin2
+      .cell
+        margin-bottom: 2rem
+    #bulletin1
+      padding: 3rem 0 0
+    #langWelcome
+      ul
+        margin: 0
+      li
+        font-size: 1.35rem
+        padding: .25rem .5rem
+  // Navigation
+  body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav
+    .mega-menuIcon
+      top: 0 !important
+      left: 10px !important
+      width: 80px !important
+    &> li.mega-menu-megamenu > ul.mega-sub-menu
+      padding: 0 !important
+    .mega-menuHeader li.mega-menu-item h4
+      padding-left: 100px
+    li#mega-menu-item-131
+      .mega-search
+        input[type=text]
+          height: 40px
+        .search-icon:before
+          margin-top: -3px
+      .mega-search-wrap
+        margin: 0
+  //Content
+  .taxonomy-description
+    margin-top: 0
+  .inner-content
+    margin: 1.5rem 0
+    h1.entry-title.single-title
+      line-height: 2rem
+  .hc-stories
+    .large-5 .story
+      position: relative
+      top: 20px
+    .large-offset-1 blockquote
+      position: relative
+    .circleWrap
+      width: 245px
+      height: 245px
+  .cell.large-4.edu-thumb
+    margin-bottom: 1rem
+  body.category-community-education-series p.tags span.episode, .article-footer p.tags span.episode
+    margin-left: 0
+  // Who We Help
+  .card
+    width: 100%
+  // Footer
+  .top-footer
+    .newsletter
+      &:after
+        content: none
+      h4
+        padding-left: 15%
+    .latest-news:after
+      content: none
+    .social
+      padding: 1rem 15% 0
+      h4
+        float: none
+        display: block
+  .bottom-footer
+    .cell
+      margin-bottom: 1.5rem
+      padding-bottom: 1.5rem
+      border-bottom: 1px solid #d9e2e4
+    .cell::after
+      content: none
+    .cell:first-child p
+      margin-left: 1rem
+    .cell.copy
+      border-bottom: 0
+      border-top: 0
+      margin-bottom: 1rem

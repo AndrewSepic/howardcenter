@@ -24,12 +24,12 @@
               </a>
 	    			</div>
 
-            <div class="small-12 medium-6 large-4 cell social">
+            <div class="small-12 medium-12 large-4 cell social">
                 <h4> Connect with Us </h4>
-                <a href="#"><span class="circle"><i class="fi-social-facebook"></i></span></a>
-                <a href="#"><span class="circle"><i class="fi-social-twitter"></i></span></a>
-                <a href="#"><span class="circle"><i class="fi-social-linkedin"></i></span></a>
-                <a href="#"><span class="circle"><i class="fi-mail"></i></span></a>
+                <a href="http://www.facebook.com/pages/HowardCenter/106516727431" target="_blank"><span class="circle"><i class="fi-social-facebook"></i></span></a>
+                <a href="https://twitter.com/HowardCenterVT" target="_blank"><span class="circle"><i class="fi-social-twitter"></i></span></a>
+                <a href="http://www.linkedin.com/company/howardcenter" target="_blank"><span class="circle"><i class="fi-social-linkedin"></i></span></a>
+                <a href="mailto:newsletter@howardcenter.org"><span class="circle"><i class="fi-mail"></i></span></a>
 	    			</div>
 
 					</div> <!-- end #top-footer -->
@@ -95,7 +95,7 @@
               </div>
 
               <div class="small-12 medium-6 large-3 cell">
-                <a class="button orange" href="#">Donate</a>
+                <a class="button orange" href="https://54461.thankyou4caring.org/">Donate</a>
                 <ul class="adminLinks">
                   <?php
                   // check if the repeater field has rows of data
@@ -114,6 +114,9 @@
                     ?>
 
                 </ul>
+                <p>
+                  <?php the_field('ada', 'option'); ?>
+                </p>
               </div>
 
             <div class="small-12 medium-12 large-12 cell copy">

@@ -13,7 +13,7 @@
 	<div class="top-bar-right ">
 		<ul class="medium-horizontal menu">
 			<li class="portal"><a href="#">Client Portal</a></li>
-			<li class="donate"><a href="#">Donate</a></li>
+			<li class="donate"><a href="https://54461.thankyou4caring.org/">Donate</a></li>
 		</ul>
 	</div>
 	<div class="top-bar-right float-right show-for-small-only">

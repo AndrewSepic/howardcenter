@@ -224,9 +224,9 @@ $input-error-font-weight: $global-weight-bold;
 
 $accordion-background: $white;
 $accordion-plusminus: true;
-$accordion-title-font-size: rem-calc(12);
+$accordion-title-font-size: rem-calc(16);
 $accordion-item-color: $primary-color;
-$accordion-item-background-hover: $light-gray;
+$accordion-item-background-hover: #f0f0e7;
 $accordion-item-padding: 1.25rem 1rem;
 $accordion-content-background: $white;
 $accordion-content-border: 1px solid $light-gray;
@@ -282,11 +282,11 @@ $button-font-family: inherit;
 $button-padding: 0.85rem 1rem;
 $button-margin: 0 0 $global-margin 0;
 $button-fill: solid;
-$button-background: $primary-color;
-$button-background-hover: scale-color($button-background, $lightness: -15%);
+$button-background: #007d8b;
+$button-background-hover: scale-color(#007d8b, $lightness: -15%);
 $button-color: $white;
 $button-color-alt: $black;
-$button-radius: 30px;
+$button-radius: 10px;
 $button-hollow-border-width: 1px;
 $button-sizes: (
   tiny: 0.6rem,
@@ -723,6 +723,8 @@ $responsive-embed-margin-bottom: rem-calc(16);
 $responsive-embed-ratios: (
   default: 4 by 3,
   widescreen: 16 by 9,
+  panorama: 256 by 81,
+  square: 1 by 1,
 );
 
 // 47. Reveal
