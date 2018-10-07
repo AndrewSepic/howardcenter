@@ -23,7 +23,22 @@ get_header(); ?>
 				</div> <?php
 			}
 			else {
-				echo 'We need a slideshow folks!';
+				//echo 'We need a slideshow folks!';?>
+				<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit data-options="animInFromRight:fade-in; data-auto-play:true; data-timer-delay:6000; data-infinite-wrap:true;">
+
+					<ul class="orbit-container">
+
+						<?php while( have_rows('hero', 'option') ): the_row();?>
+
+						<li class="orbit-slide is-active">
+							<figure class="orbit-figure">
+								<img class="orbit-image" src="<?php the_sub_field('hero_image'); ?>" alt="Howard Center - Help is Here">
+							</figure>
+						</li>
+					<?php endwhile;?>
+					</ul>
+				</div>
+				<?php
 			}
 		 	?>
 
@@ -125,6 +140,9 @@ get_header(); ?>
 											<li><a href="/faq-frequently-asked-questions/#assessment">Where can I get a drug or alcohol assessment?</a></li>
 											<li><a href="/faq-frequently-asked-questions/#appointment">How do I make an initial appointment?</a></li>
 											<li><a href="/faq-frequently-asked-questions/#newappointment">What do I need for my first appointment?</a></li>
+											<li><a href="/faq-frequently-asked-questions/#psych">Are your psychiatrists available for a second opinion?</a></li>
+											<li><a href="/faq-frequently-asked-questions/#meds">Do you offer medication management?</a></li>
+											<li><a href="/faq-frequently-asked-questions/#visit">We have a patient visiting your area for a week. Can they see a psychiatrist while they are visiting?</a></li>
 											<li><a href="/faq-frequently-asked-questions/#intern">Who do I contact to set up an internship placement?</a></li>
 										</ul>
 									</li>
@@ -188,6 +206,7 @@ get_header(); ?>
 									<div class="cell small-12 medium-6 large-4 jobs">
 										<div>
 											<h3><?php the_field('employment_widget_title', 'option');?></h3>
+											<h5><?php the_field('employment_widget_sub_title', 'option');?></h5>
 											<ul>
 												<?php
 												// check if the repeater field has rows of data
