@@ -50,7 +50,7 @@
 					 <?php get_template_part( 'parts/nav', 'offcanvas-topbar' ); ?>
 
            <!-- Logo & Call Buttons -->
-           <div class="headerMain grid-x grid-margin-x grid-padding-x">
+           <div class="headerMain grid-x grid-padding-x">
 
              <div class="cell small-12 large-6">
                 <a href="<?php echo home_url(); ?>"><img class="logo" src="<?php echo get_template_directory_uri(); ?>/assets/images/hc-logo.png" alt="<?php echo get_bloginfo( 'name' );?>"/></a>
@@ -59,10 +59,12 @@
              <div class="cell small-12 medium-6 large-3">
 
                 <a href="tel:8024887777">
-                  <div class="helpNow">
-                     <span>Need Help Now?</span>
-                     <span itemprop="telephone" class="number">802-488-7777</span>
-
+                  <div class="helpNow grid-x">
+                    <div class="small-10 cell">
+                      <span>Need Help Now?</span><br>
+                      <span itemprop="telephone" class="number">802-488-7777</span>
+                    </div>
+                    <div class="small-2 cell"></div>
                    <!-- <img class="firstCall" src="<?php //echo get_template_directory_uri(); ?>/assets/images/First-Call-4c.png" alt="Call for Help Now"/> -->
                   </div>
                  </a>
@@ -70,14 +72,18 @@
 
               <div class="cell small-12 medium-6 large-3">
 
-                 <div class="mainNumber">
-                   <span>Main Number</span>
-                   <span itemprop="telephone" class="number"><a href="tel:8024886000">802-488-6000</a></span>
-                   <a href="mailto:info@howardcenter.org"/>
-                    <div class="mainEmail">
-                      Email <i class="fi-mail"></i>
-                    </div>
-                  </a>
+                 <div class="mainNumber grid-x">
+                   <div class="small-9 cell">
+                     <span>Main Number</span><br>
+                     <span itemprop="telephone" class="number"><a href="tel:8024886000">802-488-6000</a></span>
+                   </div>
+                   <div class="small-3">
+                     <a href="mailto:hcinfo@howardcenter.org"/>
+                      <div class="mainEmail">
+                        Email <i class="fi-mail"></i>
+                      </div>
+                    </a>
+                  </div>
                  </div>
               </div>
 

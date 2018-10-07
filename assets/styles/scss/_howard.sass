@@ -9,6 +9,10 @@
 
 @import url('https://fonts.googleapis.com/css?family=Slabo+13px')
 
+@import url('https://fonts.googleapis.com/css?family=Padauk')
+
+$Burmese: 'Padauk', sans-serif
+
 $headingStack: 'Slabo 13px', serif
 $arial: 'Arial', sans-serif
 
@@ -113,6 +117,20 @@ a.button
     .arrow
       +arrow(8px, $blue)
 
+.wpcf7-submit
+  background: #cccccc
+  font-size: 1.25rem
+  color: #FFFFFF
+  border-radius: 5px
+  font-weight: bold
+  text-transform: uppercase
+  border: 0
+  padding: 0.85rem 1rem
+  cursor: pointer
+  &:hover
+    color: #fff
+    background-color: $greenblue
+
 // Orange Button
 .button.orange
   +orangebutton
@@ -159,12 +177,12 @@ blockquote
   font-style: italic
   margin: 0 0 2rem
   position: relative
-  &:after
+  &:after, &:before
     content: "\0022"
     position: absolute
-    top: -6px
-    left: -4px
-    font-size: 3rem
+    font-size: 1.5rem
+  &:before
+    left: 0
 
 select
   border: 1px solid $greenblue
@@ -198,6 +216,8 @@ select
       border-right: 2px solid #0b3b49
       &:hover
         color: #457786
+    &.active a
+      background-color: transparent
   li:last-child
     a
       border-right: 0
@@ -206,6 +226,12 @@ select
       list-style-type: none
     a
       padding: 0 1.25rem 0 .5rem
+  // GTranslate
+  li.gtranslate-parent
+    position: relative
+    ul.dropdown-menu
+      max-height: 300px
+      overflow-y: auto
 
 li.portal a, li.donate a
     padding: .35rem .75rem
@@ -237,30 +263,26 @@ li.donate a
     width: 360px
     margin-top: 15px
   .helpNow, .mainNumber
-    width: 295px
     border-radius: 50px
     padding: .5rem
-    float: left
-    margin: 80px 20px 0 0
+    margin: 80px 0 0 0
     text-align: center
     span
-      display: block
       font-size: 1.2rem
       text-align: center
-      float: left
-      margin-left: 30px
       &:first-child
         font-family: $headingStack
       &.number
         font-size: 1.75rem
         font-weight: 900
         margin-top: -7px
-        margin-left: 15px
   .helpNow
     background: $red url('../images/First-Call-4c.png') no-repeat top right
     color: #fff
     background-size: contain
     +cssTransition(.3)
+    span
+      margin-left: -15px
     &:hover
       background-color: #da321a
       cursor: pointer
@@ -269,15 +291,15 @@ li.donate a
   .mainNumber
     background: $lightblue
     color: $blue
+    .small-8
     .mainEmail
       border-left: 1px solid #7196a0
-      float: right
       height: 50px
       font-size: 1rem
       padding-left: 1px
       font-family: $headingStack
       width: 75px
-      margin: -23px 0 0 10px
+      margin: 10px 0 0 0
       i
         display: block
         font-size: 2rem
@@ -428,7 +450,8 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav
 #hero
   height: 450px
   width: 100%
-  background: url('../images/HC-hero.jpg') no-repeat top left
+  background-repeat: no-repeat
+  background-position: center center
   background-size: cover
 
 // Languages
@@ -455,6 +478,8 @@ body.home
     margin: 0
   header.article-header
     display: none
+  main.main
+    padding: 0
   .useIcons
     text-align: center
     margin-top: 3rem
@@ -519,46 +544,65 @@ body.home
       text-align: center
       margin-bottom: 2rem
       font-size: 1.75rem
-    .cell a
-      position: relative
-      display: block
-      border-radius: 7px
-      overflow: hidden
-      .post-info
-        visibility: hidden
-        opacity: 0
-        position: absolute
-        text-align: center
-        padding: 2rem
-        top: 0
-        font-size: 1.35rem
-        font-family: $headingStack
-        height: 100%
-        p
-          line-height: 1.75rem
-          top: 35%
-          position: relative
-        &.Blue
-          background-color: $blue
-          color: #fff
-        &.Orange
-          background-color: $orange
-          color: $blue
-        &.Red
-          background-color: $red
-          color: #fff
-        &.Orange.red
-          background-color: $orange-red
-          color: #blue
-        &.Green.blue
-          background-color: $greenblue
-          color: $blue
-        &.Olive
-          background-color: $olive
-          color: #fff
-      &:hover .post-info
-        visibility: visible
-        opacity: 1
+    .slick-slide
+      padding: 0 1rem
+      a
+        position: relative
+        display: block
+        border-radius: 7px
+        overflow: hidden
+        .post-info
+          visibility: hidden
+          opacity: 0
+          position: absolute
+          text-align: center
+          padding: 2rem
+          top: 0
+          font-size: 1.35rem
+          font-family: $headingStack
+          height: 100%
+          p
+            line-height: 1.75rem
+            top: 35%
+            position: relative
+          &.Blue
+            background-color: $blue
+            color: #fff
+          &.Orange
+            background-color: $orange
+            color: $blue
+          &.Red
+            background-color: $red
+            color: #fff
+          &.Orange.red
+            background-color: $orange-red
+            color: #blue
+          &.Green.blue
+            background-color: $greenblue
+            color: $blue
+          &.Olive
+            background-color: $olive
+            color: #fff
+        &:hover .post-info
+          visibility: visible
+          opacity: 1
+    button.slick-prev, button.slick-next
+      text-indent: -9999px
+      width: 20px
+      height: 20px
+      border-left: 2px solid #aeaeae
+      border-top: 2px solid #aeaeae
+      top: 45%
+      position: absolute
+      cursor: pointer
+    button.slick-prev
+      float: left
+      transform: rotate(-45deg)
+      left: 0
+    button.slick-next
+      float: right
+      transform: rotate(135deg)
+      right: 10px
   #bulletin2
     background-color: #f0f0e7
     padding: 0 0 2rem
@@ -897,8 +941,6 @@ body.home
       transform: translateY(-50%)
       font-size: 1.1rem
       line-height: 1.4rem
-      &:after
-        top: 15px
     span.author
       font-size: 1.25rem
       float: right
@@ -948,7 +990,7 @@ body.home
     position: relative
   .newsletter
     h4
-      padding-left: 25%
+      padding-left: 10%
     i
       float: left
       color: #fff
@@ -1065,7 +1107,7 @@ body.home
     a:hover img
       opacity: .7
   ul.missionLogos li:first-child
-    width: 75%
+    width: 65%
     margin-bottom: 1rem
   ul.missionLogos li:last-child img
     max-height: 67px
@@ -1089,8 +1131,9 @@ body.page-template-directions-locations
     margin-top: 0
   .location
     border-bottom: 1px solid #e4e4e4
-    margin: 1rem 0 1rem
-    min-height: 155px
+    margin: 2rem 0 1rem
+    padding-bottom: 1rem
+    min-height: 177px
     span.circle
       background: #0d88cd
       color: #fff
@@ -1102,6 +1145,7 @@ body.page-template-directions-locations
       font-weight: bold
       float: left
       margin: 1px 7px 0 0
+      padding: 2px
     h4
       font-size: 1.25rem
     p
@@ -1172,4 +1216,86 @@ body.category-community-education-series p.tags, .article-footer p.tags
 .taxonomy-description
   margin-top: 2rem
 
+/********************************/
+// CALENDAR & SPECIAL EVENTS
+/********************************/
 
+.category-special-events
+  h1.page-title
+    text-align: center
+    padding: 2rem 0 1rem
+    border-bottom: 3px solid #e5f2f3
+    margin-bottom: 3rem
+  .article
+    margin: 3rem 0
+
+.date-wrap
+  text-align: center
+  .month
+    background: #e5f2f3
+    border-top-left-radius: 5px
+    border-top-right-radius: 5px
+    color: $blue
+    padding: .25rem
+  .day
+    font-size: 3rem
+    line-height: 3rem
+    border-left: 2px solid #e5f2f3
+    border-right: 2px solid #e5f2f3
+  .year
+    border-bottom-left-radius: 5px
+    border-bottom-right-radius: 5px
+    background-color: #e5f2f3
+    color: $blue
+    padding: .25rem
+
+.single-event
+  .entry-title.single-title
+    padding-bottom: 2rem
+  .article-header
+    overflow: hidden
+  .date-wrap
+    width: 50%
+    float: left
+    margin-right: 5%
+  p.tags
+    font-weight: bold
+    float: left
+    width: 45%
+    span
+      padding-bottom: .5rem
+      display: inline-block
+      font-size: 1.1rem
+
+
+/********************************/
+// WP CONTACT FORM 7
+/********************************/
+
+// Form
+div.wpcf7
+  label
+    font-size: 1rem
+    font-weight: bold
+    line-height: 1.8
+    color: #7b7b7b
+
+// MEssages
+div.wpcf7-mail-sent-ng, div.wpcf7-aborted
+  border-radius: 10px
+  background-color: $red
+  color: #fff
+  font-weight: bold
+  padding: .85rem 1rem
+
+
+/********************************/
+// LANGUAGES
+/********************************/
+
+a.burmese, div.burmese
+  font-family: $Burmese
+//
+
+li.trouble img
+  height: 33px

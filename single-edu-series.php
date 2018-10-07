@@ -1,6 +1,6 @@
 <?php
 /**
- * The template for displaying all single posts and attachments
+ * The template for single posts in the education series category
  */
 
 get_header(); ?>

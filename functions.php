@@ -46,6 +46,14 @@ require_once(get_template_directory().'/functions/login.php');
 // Customize the WordPress admin
 // require_once(get_template_directory().'/functions/admin.php');
 
+// ENQUEUE scripts
+function hc_scripts(){
+  wp_enqueue_script ('slick', 'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), true );
+  wp_enqueue_style ('slickcss', 'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', true );
+}
+add_action('wp_enqueue_scripts', 'hc_scripts');
+
+
 // Setup Advanced Custom Fields THeme Options page
 if( function_exists('acf_add_options_page') ) {
 
@@ -80,6 +88,7 @@ function hc_theme_setup() {
    add_image_size( 'bulletin-featured', false ); //
    add_image_size( 'page-header', 870, 300, true );
    add_image_Size( 'edu-series', 290, 190, true);
+   add_image_size( 'calendar', 450, 700, true );
 }
 
 
@@ -141,6 +150,38 @@ function hc_bulletin_post_type() {
 }
 add_action( 'init', 'hc_bulletin_post_type', 0 );
 
+// Custom Post Type for Calendar & Special Events
+ function lc_create_post_type() {
+   // set up labels
+   $labels = array (
+   'name' => 'Events',
+   'singular_name' => 'Event',
+   'add_new' => 'Add New Event',
+   'add_new_item' => 'Add New Event',
+   'edit_item' => 'Edit Event',
+   'new_item' => 'New Event',
+   'all_items' => 'All Events',
+   'view_item' => 'View Event',
+   'search_items' => 'Search Events',
+   'not_found' => 'No Events Found',
+   'not_found_in_trash' => 'No Events found in Trash',
+   'parent_item_colon' => '',
+   'menu_name' => 'Events',
+   );
+     //register post type
+     register_post_type ( 'event', array(
+     'labels' => $labels,
+     'has_archive' => true,
+     'public' => true,
+     'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail','page-attributes' ),
+     'taxonomies' => array( 'post_tag', 'category' ),
+     'exclude_from_search' => false,
+     'capability_type' => 'post',
+     'rewrite' => array( 'slug' => 'events' ),
+     )
+   );
+ }
+ add_action( 'init', 'lc_create_post_type' );
 
 
 //Registers new SIDEBAR for twitter feed
@@ -201,18 +242,31 @@ function custom_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
+// Show posts of 'special events' post types on calendar & special events page
+function namespace_add_custom_types( $query ) {
+  if( is_category() || is_tag() && empty( $query->query_vars['suppress_filters'] ) ) {
+    $query->set( 'post_type', array(
+     'post', 'nav_menu_item', 'event'
+		));
+	  return $query;
+	}
+}
+add_filter( 'pre_get_posts', 'namespace_add_custom_types' );
+
 
 // Connects custom post template with template files
 // Gets Post category and connects it with custom post template
 
-add_filter('single_template', 'edu_series_template');
+add_filter('single_template', 'hc_post_templates');
 
-function edu_series_template($single_template) {
+function hc_post_templates($single_template) {
 		global $post;
-
 				if ( in_category( 'community-education-series' )) {
 					$single_template = dirname( __FILE__ ) . '/single-edu-series.php';
 		}
+    elseif ( in_category( 'special-events' )) {
+      $single_template = dirname( __FILE__ ) . '/single-special-events.php';
+    }
 		return $single_template;
 };
 

@@ -13,13 +13,13 @@
 					<div class="top-footer grid-x">
 
 						<div class="small-12 medium-6 large-4 cell newsletter">
-              <a href="#">
-              	<h4> Join Our Newsletter</h4> <i class="fi-arrow-right"></i>
+              <a href="/email-newsletter/">
+              	<h4> Sign Up for Our Newsletter</h4> <i class="fi-arrow-right"></i>
               </a>
 	    			</div>
 
             <div class="small-12 medium-6 large-4 cell latest-news">
-              <a href="#">
+              <a href="/category/news-archive/">
                 <span class="circle"><i class="fi-megaphone"></i></span><h4>Read the Latest News </h4>
               </a>
 	    			</div>
@@ -29,7 +29,7 @@
                 <a href="http://www.facebook.com/pages/HowardCenter/106516727431" target="_blank"><span class="circle"><i class="fi-social-facebook"></i></span></a>
                 <a href="https://twitter.com/HowardCenterVT" target="_blank"><span class="circle"><i class="fi-social-twitter"></i></span></a>
                 <a href="http://www.linkedin.com/company/howardcenter" target="_blank"><span class="circle"><i class="fi-social-linkedin"></i></span></a>
-                <a href="mailto:newsletter@howardcenter.org"><span class="circle"><i class="fi-mail"></i></span></a>
+                <a href="/email-newsletter/"><span class="circle"><i class="fi-mail"></i></span></a>
 	    			</div>
 
 					</div> <!-- end #top-footer -->
@@ -82,7 +82,7 @@
                       // loop through the rows of data
                         while ( have_rows('quick_links', 'option') ) : the_row();   ?>
 
-                          <li> <a href="<?php the_sub_field('quick_link_link', 'option')?>"><?php the_sub_field('quick_link_text', 'option');?></a></li>   <?php
+                          <li> <a href="<?php the_sub_field('quick_link_link')?>"><?php the_sub_field('quick_link_text');?></a></li>   <?php
 
                         endwhile;
 
@@ -95,7 +95,7 @@
               </div>
 
               <div class="small-12 medium-6 large-3 cell">
-                <a class="button orange" href="https://54461.thankyou4caring.org/">Donate</a>
+                <a class="button orange" target="_blank" href="https://54461.thankyou4caring.org/">Donate</a>
                 <ul class="adminLinks">
                   <?php
                   // check if the repeater field has rows of data
@@ -104,7 +104,7 @@
                       // loop through the rows of data
                         while ( have_rows('donate_column_admin_links', 'option') ) : the_row();   ?>
 
-                          <li> <a href="<?php the_sub_field('admin_link', 'option')?>"><?php the_sub_field('admin_link_text', 'option');?></a></li>   <?php
+                          <li> <a href="<?php the_sub_field('admin_link')?>"><?php the_sub_field('admin_link_text');?></a></li>   <?php
 
                         endwhile;
 
@@ -120,7 +120,7 @@
               </div>
 
             <div class="small-12 medium-12 large-12 cell copy">
-              <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. | Privacy Policy  | Terms of Use</p>
+              <p class="source-org copyright">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. | <a href="/privacy-policy">Privacy Policy</a></p>
             </div>
 
           </div><!-- end .bottom-footer -->

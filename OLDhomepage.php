@@ -10,22 +10,42 @@ get_header(); ?>
 		<div class="inner-content grid-x grid-margin-x grid-padding-x">
 
 			<?php
-			// check the number of imagesx
-			$numimage = count( get_field( 'hero', 'option' ) );
-			if ($numimage < 2) {
-				// Get the rows, get the single row and it's image
+				// Test to see if there are multiple images loaded for Hero section
 				$rows = get_field('hero', 'option'); // get all the rows
-				$first_row = $rows[0];
-				$first_row_image = $first_row['hero_image']; ?>
+				$first_row = $rows[0]; // get the first row
+				//$second_row = $rows[1]; // get the second row
 
-				<div id="hero" style="background-image: url('<?php echo $first_row_image; ?>')">
-					<!-- Howard Center Staff Pic -->
-				</div> <?php
-			}
-			else {
-				echo 'We need a slideshow folks!';
-			}
-		 	?>
+				// If there is only one image loaded
+				if ($second_row = null) {
+					echo 'There is only one item loaded';
+					$first_row_image = $first_row['hero_image'];
+					// Display the single hero image as a background image only
+					?>
+					<div id="hero" style="background-image: url('<?php $first_row_image; ?>')">
+						<!-- Howard Center Staff Pic -->
+					</div>
+					<?php
+				}
+				// But if more than one image is added then initiate Orbit Slider with images
+				else  {
+					// Display the single hero image as a background image only
+					if( have_rows('hero') ): ?>
+						 <ul class="orbit-container"> <?php
+						 while( have_rows('hero') ): the_row(); ?>
+
+						<li class="orbit-slide">
+							<figure class="orbit-figure">
+								<img class="orbit-image" src="<?php the_sub_field('hero_image', 'option');?>" alt="HC Welcome">
+							</figure>
+						</li> <?php
+						endwhile; ?>
+					</ul>
+					<?php
+					else:
+						echo 'No fields to display buddy!';
+					endif;
+				}
+				?>
 
 			<div id="langWelcome">
 				<ul>
