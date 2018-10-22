@@ -608,7 +608,7 @@ body.home
       right: 10px
   #bulletin2
     background-color: #f0f0e7
-    padding: 0 0 2rem
+    padding: 0 2rem 2rem
     .cell.jobs > div, .cell.twitter > div
       background: #fff
       border: 1px solid #dcdcdc
@@ -1063,6 +1063,7 @@ body.home
   text-transform: uppercase
   .cell
     position: relative
+    margin-top: .75rem
     // separator
     &:after
       content: ""
@@ -1074,6 +1075,8 @@ body.home
       right: -10px
     &:nth-child(4):after, &:nth-child(5):after
       display: none
+  .cell:nth-child(1)
+    margin-top: 0
   .cell:nth-child(2) p
     font-weight: normal
     text-transform: none

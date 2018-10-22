@@ -46,14 +46,6 @@ require_once(get_template_directory().'/functions/login.php');
 // Customize the WordPress admin
 // require_once(get_template_directory().'/functions/admin.php');
 
-// ENQUEUE scripts
-function hc_scripts(){
-  wp_enqueue_script ('slick', 'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js', array('jquery'), true );
-  wp_enqueue_style ('slickcss', 'http://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css', true );
-}
-add_action('wp_enqueue_scripts', 'hc_scripts');
-
-
 // Setup Advanced Custom Fields THeme Options page
 if( function_exists('acf_add_options_page') ) {
 
