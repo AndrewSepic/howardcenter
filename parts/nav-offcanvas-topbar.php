@@ -12,7 +12,7 @@
 	</div>
 	<div class="top-bar-right ">
 		<ul class="medium-horizontal menu">
-			<li class="portal"><a target="_blank" href="https://howardcenter.intelichart.com/PatientPortal/account/login?ReturnUrl=%2fPatientPortal%2f">Patient Portal</a></li>
+			<li class="portal"><a target="_blank" href="https://howardcenter.org/patient-portal/">Patient Portal</a></li>
 			<li class="donate"><a target="_blank" href="https://54461.thankyou4caring.org/">Donate</a></li>
 		</ul>
 	</div>
