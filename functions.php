@@ -166,7 +166,6 @@ add_action( 'init', 'hc_bulletin_post_type', 0 );
      'has_archive' => true,
      'public' => true,
      'supports' => array( 'title', 'editor', 'excerpt', 'custom-fields', 'thumbnail','page-attributes' ),
-     'taxonomies' => array( 'post_tag', 'category' ),
      'exclude_from_search' => false,
      'capability_type' => 'post',
      'rewrite' => array( 'slug' => 'events' ),
@@ -235,15 +234,15 @@ function custom_excerpt_length( $length ) {
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 
 // Show posts of 'special events' post types on calendar & special events page
-function namespace_add_custom_types( $query ) {
-  if( is_category() || is_tag() && empty( $query->query_vars['suppress_filters'] ) ) {
-    $query->set( 'post_type', array(
-     'post', 'nav_menu_item', 'event'
-		));
-	  return $query;
-	}
-}
-add_filter( 'pre_get_posts', 'namespace_add_custom_types' );
+// function namespace_add_custom_types( $query ) {
+//   if( is_category() || is_tag() && empty( $query->query_vars['suppress_filters'] ) ) {
+//     $query->set( 'post_type', array(
+//      'post', 'nav_menu_item', 'event'
+// 		));
+// 	  return $query;
+// 	}
+// }
+// add_filter( 'pre_get_posts', 'namespace_add_custom_types' );
 
 
 // Connects custom post template with template files
