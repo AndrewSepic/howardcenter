@@ -80,7 +80,7 @@ function hc_theme_setup() {
    add_image_size( 'bulletin-featured', false ); //
    add_image_size( 'page-header', 870, 300, true );
    add_image_Size( 'edu-series', 290, 190, true);
-   add_image_size( 'calendar', 450, 700, true );
+   add_image_size( 'calendar', 450, 700, false );
 }
 
 
