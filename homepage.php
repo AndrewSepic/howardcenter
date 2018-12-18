@@ -85,7 +85,7 @@ get_header(); ?>
 							</div>
 
 							<div class="cell small-6 medium-4 large-1">
-								<a class="icon-button" href="substance-use-and-recovery/" >
+								<a class="icon-button" href="substance-use/" >
 									<img class="icon" src="<?php  echo get_template_directory_uri(); ?>/assets/images/SU-icon.png" alt="Substance Use & Recovery Services"/>
 									<h4>Substance Use & Recovery</h4>
 									<h5>Services</h5>
