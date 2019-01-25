@@ -161,7 +161,7 @@ get_header(); ?>
 							<div class="cell small-12 medium-12 large-12">
 								<h3 class="bulletinHeading">Bulletin Board</h3>
 							</div>
-							<div class="bulletinSlider cell small-12 medium-12 large-12">
+							<div class="grid-x grid-padding-x grid-margin-x">
 							<!-- First Row -->
 							<?php $args = array('post_type' => 'bulletin_post_type',
 																		'posts_per_page'  => '6'
@@ -177,7 +177,7 @@ get_header(); ?>
 														<!-- <div class="cell small-6 medium-4 large-4 large-offset-1"> -->
 												<?php //} else {
 													// return to normal markup
-													?><div>	<?php
+													?><div class="cell small-12 medium-6 large-4">	<?php
 												//} ?>
 															<a href="<?php the_field('bulletin_link'); ?>" class="bulletinLink">
 
