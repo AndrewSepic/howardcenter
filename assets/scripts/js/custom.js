@@ -5,6 +5,15 @@
 
 jQuery(document).ready(function($) {
 
+  if(!Cookies.get('hideAnnouncement')) $("div.announcement").slideDown("slow");
+  $("a#closeit").click(function() {
+      Cookies.set('hideAnnouncement', 'true', { expires: 3 });
+      $("div.announcement").slideUp("slow");
+      return false;
+      Cookies.remove('hideAnnouncement');
+  });
+
+
   DS = $('#mega-menu-item-11 > a');
   MH = $('#mega-menu-item-12 > a');
   SU = $('#mega-menu-item-13 > a');

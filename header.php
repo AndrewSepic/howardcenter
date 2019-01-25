@@ -43,6 +43,8 @@
 
 			<div class="off-canvas-content" data-off-canvas-content>
 
+         <?php get_template_part( 'parts/announcement', 'bar' ); ?>
+
 				<header class="header" role="banner">
 
 					 <!-- This navs will be applied to the topbar, above all content

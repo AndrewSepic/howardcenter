@@ -54,7 +54,6 @@ if( function_exists('acf_add_options_page') ) {
 		'menu_title' 	=> 'HC Options',
 		'menu_slug' 	=> 'hc-settings',
 		'capability' 	=> 'edit_posts',
-		'redirect' 	=> false
 	));
 
   acf_add_options_sub_page(array(
@@ -63,12 +62,17 @@ if( function_exists('acf_add_options_page') ) {
     'parent_slug'	=> 'hc-settings',
   ));
 
-
   acf_add_options_sub_page(array(
 		'page_title' 	=> 'Howard Center Footer',
 		'menu_title'	=> 'Footer',
 		'parent_slug'	=> 'hc-settings',
 	));
+
+  acf_add_options_sub_page(array(
+    'page_title' 	=> 'Announcement Bar',
+    'menu_title'	=> 'Announcement',
+    'parent_slug'	=> 'hc-settings',
+  ));
 
 }
 

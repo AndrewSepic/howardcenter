@@ -204,6 +204,41 @@ select
 // HEADER
 /********************************/
 
+// Announcement Bar
+div.announcement
+  &.emergency
+    background-color: $orange-red
+    a.button
+      background-color: #dd5001
+  &.info
+    background-color: #feb742
+    a.button
+      background-color: #eb970d
+  i
+    float: left
+    font-size: 2rem
+    padding: .4rem .75rem 0 0
+    color: #fff
+  h3
+    color: #fff
+    font-family: $arial
+    font-size: 1.2rem
+    padding: 1rem .75rem .25rem 0
+    display: inline-block
+    float: left
+  a.button
+    padding: .5rem 1rem
+    margin: .75rem 0
+    font-size: 1.1rem
+    border-radius: 4px
+    float: left
+    &:hover
+      opacity: .75
+  a#closeit
+    float: right
+    color: #fff
+    padding: 1rem .5rem
+
 // NAVIGATION
 #menu-utility-links-1
   li
