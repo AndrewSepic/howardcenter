@@ -8,6 +8,9 @@
 
 <div class="top-bar" id="top-bar-menu">
 	<div class="top-bar-left float-left show-for-medium">
+		<?php if (function_exists('zeno_font_resizer_place')) {
+        zeno_font_resizer_place();
+    }?>
 		<?php joints_top_nav(); ?>
 	</div>
 	<div class="top-bar-right ">
