@@ -10022,18 +10022,18 @@ li.donate a:hover {
 }
 
 /* line 304, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain {
+.headerMain, .callOut {
   padding-bottom: 1rem;
 }
 
 /* line 306, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain img.logo {
+.headerMain img.logo, .callOut img.logo {
   width: 360px;
   margin-top: 15px;
 }
 
 /* line 309, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .helpNow, .headerMain .mainNumber {
+.headerMain .helpNow, .headerMain .mainNumber, .callOut .helpNow, .callOut .mainNumber {
   border-radius: 50px;
   padding: .5rem;
   margin: 80px 0 0 0;
@@ -10041,25 +10041,25 @@ li.donate a:hover {
 }
 
 /* line 314, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .helpNow span, .headerMain .mainNumber span {
+.headerMain .helpNow span, .headerMain .mainNumber span, .callOut .helpNow span, .callOut .mainNumber span {
   font-size: 1.2rem;
   text-align: center;
 }
 
 /* line 317, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .helpNow span:first-child, .headerMain .mainNumber span:first-child {
+.headerMain .helpNow span:first-child, .headerMain .mainNumber span:first-child, .callOut .helpNow span:first-child, .callOut .mainNumber span:first-child {
   font-family: "Slabo 13px", serif;
 }
 
 /* line 319, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .helpNow span.number, .headerMain .mainNumber span.number {
+.headerMain .helpNow span.number, .headerMain .mainNumber span.number, .callOut .helpNow span.number, .callOut .mainNumber span.number {
   font-size: 1.75rem;
   font-weight: 900;
   margin-top: -7px;
 }
 
 /* line 323, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .helpNow {
+.headerMain .helpNow, .callOut .helpNow {
   background: #ff3a1e url("../images/First-Call-4c.png") no-repeat top right;
   color: #fff;
   background-size: contain;
@@ -10067,29 +10067,29 @@ li.donate a:hover {
 }
 
 /* line 328, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .helpNow span {
+.headerMain .helpNow span, .callOut .helpNow span {
   margin-left: -15px;
 }
 
 /* line 330, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .helpNow:hover {
+.headerMain .helpNow:hover, .callOut .helpNow:hover {
   background-color: #da321a;
   cursor: pointer;
 }
 
 /* line 333, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .helpNow a {
+.headerMain .helpNow a, .callOut .helpNow a {
   color: #fff;
 }
 
 /* line 335, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .mainNumber {
+.headerMain .mainNumber, .callOut .mainNumber {
   background: #e5ebec;
   color: #0b3b49;
 }
 
 /* line 339, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .mainNumber .mainEmail {
+.headerMain .mainNumber .mainEmail, .callOut .mainNumber .mainEmail {
   border-left: 1px solid #7196a0;
   height: 50px;
   font-size: 1rem;
@@ -10100,59 +10100,69 @@ li.donate a:hover {
 }
 
 /* line 347, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
-.headerMain .mainNumber .mainEmail i {
+.headerMain .mainNumber .mainEmail i, .callOut .mainNumber .mainEmail i {
   display: block;
   font-size: 2rem;
   line-height: 1rem;
 }
 
-/* line 356, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 352, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+.callOut .helpNow {
+  margin: 0;
+}
+
+/* line 354, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+.callOut .helpNow span {
+  line-height: 2rem;
+}
+
+/* line 360, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .megaMenu {
   background-color: #007d8b;
 }
 
-/* line 360, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 364, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-11 {
   max-width: 241px;
   background-color: #0b3b49;
 }
 
-/* line 363, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 367, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-12 {
   max-width: 238px;
   background-color: #0b3b49;
 }
 
-/* line 366, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 370, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-13 {
   max-width: 318px;
   background-color: #0b3b49;
 }
 
-/* line 370, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 374, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-search .search-icon:before {
   line-height: 49px !important;
 }
 
-/* line 372, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 376, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-search.expand-to-right {
   top: 0;
 }
 
-/* line 376, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 380, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav a.mega-menu-link:before {
   float: left;
   background-position: 0px -1px;
 }
 
-/* line 379, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 383, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav a.mega-menu-link {
   padding-top: 10px;
   line-height: 19px;
   font-family: "Slabo 13px", serif;
 }
 
-/* line 383, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 387, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-11 span, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-12 span, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-13 span {
   font-family: Arial, sans-serif;
   text-transform: uppercase;
@@ -10161,44 +10171,44 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-
   font-size: .9rem;
 }
 
-/* line 389, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 393, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav ul.sub-menu {
   padding-left: 20px;
 }
 
-/* line 391, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 395, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav ul.sub-menu li:last-child {
   border-bottom: 0 !important;
 }
 
-/* line 394, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 398, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 #mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-131 .mega-search .search-icon:before {
   font-size: 1.35rem;
   display: block;
   margin-top: 5px;
 }
 
-/* line 403, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 407, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-11 .mega-menuHeader {
   background: #ef7622;
 }
 
-/* line 405, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 409, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-12 .mega-menuHeader {
   background: #8c8c49;
 }
 
-/* line 407, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 411, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-13 .mega-menuHeader {
   background: #ffa400;
 }
 
-/* line 409, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 413, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-14 .mega-menuHeader, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-15 .mega-menuHeader {
   background: #007d8b;
 }
 
-/* line 412, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 416, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-ds li.helpNow, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-mh li.helpNow, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-su li.helpNow, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help li.helpNow, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help-1 li.helpNow {
   color: #fff;
   border-radius: 9px;
@@ -10207,88 +10217,88 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getti
   padding: 5px 10px;
 }
 
-/* line 418, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 422, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help li.helpNow {
   background-color: #007d8b;
 }
 
-/* line 420, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 424, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help li.helpNow:hover {
   background-color: #00acbf;
   color: #fff;
 }
 
-/* line 423, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 427, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help li.helpNow a:hover {
   color: #fff;
 }
 
-/* line 425, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 429, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-ds li.helpNow {
   background-color: #ef7622;
 }
 
-/* line 427, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 431, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-ds li.helpNow:hover {
   background-color: #f18941;
   color: #fff;
 }
 
-/* line 430, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 434, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-ds li.helpNow a:hover {
   color: #fff;
 }
 
-/* line 432, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 436, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-mh li.helpNow {
   background-color: #8c8c49;
 }
 
-/* line 434, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 438, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-mh li.helpNow:hover {
   background-color: #a7a757;
   color: #fff;
 }
 
-/* line 437, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 441, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-mh li.helpNow a:hover {
   color: #fff;
 }
 
-/* line 439, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 443, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-su li.helpNow {
   background-color: #ffa400;
 }
 
-/* line 441, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 445, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-su li.helpNow:hover {
   background-color: #ffb124;
   color: #fff;
 }
 
-/* line 444, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 448, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-su li.helpNow a:hover {
   color: #fff;
 }
 
-/* line 446, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 450, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuHeader {
   width: 100%;
 }
 
-/* line 448, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 452, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuHeader li.mega-menu-item {
   padding: 30px 0 2px 0 !important;
 }
 
-/* line 450, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 454, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuHeader li.mega-menu-item h4 {
   color: #fff !important;
   font-size: 1.5rem !important;
   padding-left: 225px;
 }
 
-/* line 454, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 458, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuHeader li.mega-menu-item h4 span {
   font-size: 1rem;
   font-family: "Arial", sans-serif;
@@ -10296,7 +10306,7 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuH
   font-weight: normal;
 }
 
-/* line 459, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 463, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuIcon {
   position: absolute !important;
   top: 5px !important;
@@ -10305,13 +10315,13 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuI
   z-index: 100;
 }
 
-/* line 468, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 472, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-menu-item.widget_nav_menu ul li {
   border-bottom: 1px solid #809da4;
   padding: .4rem 0;
 }
 
-/* line 471, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 475, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-menu-item.widget_nav_menu ul li a {
   text-transform: uppercase;
   font-weight: 600;
@@ -10319,12 +10329,12 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-men
   transition: all 0.3s ease-in-out;
 }
 
-/* line 476, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 480, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-menu-item.widget_nav_menu ul li a:hover {
   color: #a4bcc2;
 }
 
-/* line 479, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 483, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-smallRight a.mega-menu-link, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-smallRight div.mega-search-wrap {
   background-color: #007d8b !important;
   font-weight: normal !important;
@@ -10339,12 +10349,12 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-sma
 
 /********************************/
 /********************************/
-/* line 495, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 499, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .orbit {
   width: 100%;
 }
 
-/* line 498, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 502, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 #hero {
   height: 450px;
   width: 100%;
@@ -10353,7 +10363,7 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-sma
   background-size: cover;
 }
 
-/* line 506, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 510, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 #langWelcome {
   width: 100%;
   background-color: #e5f2f3;
@@ -10361,13 +10371,13 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-sma
   text-align: center;
 }
 
-/* line 511, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 515, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 #langWelcome ul {
   list-style-type: none;
   margin-bottom: 0;
 }
 
-/* line 514, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 518, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 #langWelcome ul li {
   display: inline-block;
   padding: .5rem 1rem;
@@ -10377,34 +10387,34 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-sma
 
 /********************************/
 /********************************/
-/* line 525, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 529, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .inner-content {
   margin: 0;
 }
 
-/* line 527, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 531, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home header.article-header {
   display: none;
 }
 
-/* line 529, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 533, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home main.main {
   padding: 0;
 }
 
-/* line 531, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 535, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons {
   text-align: center;
   margin-top: 3rem;
 }
 
-/* line 534, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 538, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons.grid-x > .large-1 {
   width: 11.33333%;
   padding: 5px;
 }
 
-/* line 537, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 541, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons h4 {
   font-size: 1rem;
   font-family: "Arial", sans-serif;
@@ -10412,7 +10422,7 @@ body.home .useIcons h4 {
   text-transform: uppercase;
 }
 
-/* line 542, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 546, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons h5 {
   font-size: .9rem;
   font-weight: normal;
@@ -10420,28 +10430,28 @@ body.home .useIcons h5 {
   font-family: "Arial", sans-serif;
 }
 
-/* line 547, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 551, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons img.icon {
   width: 75%;
 }
 
-/* line 549, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 553, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons .icon-button {
   display: block;
   transition: .4s;
 }
 
-/* line 552, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 556, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons .icon-button:hover {
   transform: translate(0, -10px);
 }
 
-/* line 554, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 558, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons .icon-button:hover h4, body.home .useIcons .icon-button:hover h5 {
   color: #5d7075;
 }
 
-/* line 556, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 560, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home h3.needHelp {
   text-align: center;
   margin: 4rem 0 2rem;
@@ -10451,7 +10461,7 @@ body.home h3.needHelp {
   font-weight: normal;
 }
 
-/* line 564, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 568, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .help ul.dropdown {
   text-indent: 32px;
   border-radius: 25px;
@@ -10459,14 +10469,14 @@ body.home .help ul.dropdown {
   padding: .35rem;
 }
 
-/* line 569, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 573, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .help ul.dropdown li:first-child {
   position: relative;
   width: 95%;
   font-weight: bold;
 }
 
-/* line 573, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 577, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .help ul.dropdown li:first-child:after {
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
@@ -10479,7 +10489,7 @@ body.home .help ul.dropdown li:first-child:after {
   width: 10px;
 }
 
-/* line 583, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 587, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home .help ul.dropdown li a {
   text-indent: 0;
   font-weight: normal;
@@ -10487,26 +10497,26 @@ body.home .help ul.dropdown li a {
   padding: .5rem;
 }
 
-/* line 588, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 592, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 {
   background-color: #f0f0e7;
   margin-top: 4rem;
   padding: 3rem 2rem 2rem;
 }
 
-/* line 592, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 596, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 h3.bulletinHeading {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 1.75rem;
 }
 
-/* line 596, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 600, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell {
   padding: 0 1rem 2rem;
 }
 
-/* line 598, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 602, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a {
   position: relative;
   display: block;
@@ -10514,7 +10524,7 @@ body.home #bulletin1 div.cell a {
   overflow: hidden;
 }
 
-/* line 603, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 607, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info {
   visibility: hidden;
   opacity: 0;
@@ -10527,56 +10537,56 @@ body.home #bulletin1 div.cell a .post-info {
   height: 100%;
 }
 
-/* line 613, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 617, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info p {
   line-height: 1.75rem;
   top: 35%;
   position: relative;
 }
 
-/* line 617, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 621, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Blue {
   background-color: #0b3b49;
   color: #fff;
 }
 
-/* line 620, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 624, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Orange {
   background-color: #ffa400;
   color: #0b3b49;
 }
 
-/* line 623, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 627, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Red {
   background-color: #ff3a1e;
   color: #fff;
 }
 
-/* line 626, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 630, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Orange.red {
   background-color: #ef7622;
   color: #blue;
 }
 
-/* line 629, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 633, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Green.blue {
   background-color: #007d8b;
   color: #0b3b49;
 }
 
-/* line 632, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 636, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Olive {
   background-color: #8c8c49;
   color: #fff;
 }
 
-/* line 635, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 639, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a:hover .post-info {
   visibility: visible;
   opacity: 1;
 }
 
-/* line 638, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 642, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 button.slick-prev, body.home #bulletin1 button.slick-next {
   text-indent: -9999px;
   width: 20px;
@@ -10588,27 +10598,27 @@ body.home #bulletin1 button.slick-prev, body.home #bulletin1 button.slick-next {
   cursor: pointer;
 }
 
-/* line 647, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 651, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 button.slick-prev {
   float: left;
   transform: rotate(-45deg);
   left: 0;
 }
 
-/* line 651, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 655, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 button.slick-next {
   float: right;
   transform: rotate(135deg);
   right: 10px;
 }
 
-/* line 655, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 659, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 {
   background-color: #f0f0e7;
   padding: 0 2rem 2rem;
 }
 
-/* line 658, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 662, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div, body.home #bulletin2 .cell.twitter > div {
   background: #fff;
   border: 1px solid #dcdcdc;
@@ -10616,28 +10626,28 @@ body.home #bulletin2 .cell.jobs > div, body.home #bulletin2 .cell.twitter > div 
   padding: 2rem;
 }
 
-/* line 663, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 667, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div h5, body.home #bulletin2 .cell.twitter > div h5 {
   font-weight: normal;
 }
 
-/* line 665, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 669, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div h3, body.home #bulletin2 .cell.twitter > div h3 {
   font-weight: normal;
 }
 
-/* line 667, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 671, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div ul, body.home #bulletin2 .cell.twitter > div ul {
   list-style-type: none;
   margin: 1rem 0 2rem;
 }
 
-/* line 670, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 674, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div ul li, body.home #bulletin2 .cell.twitter > div ul li {
   padding: .25rem 0;
 }
 
-/* line 672, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 676, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div ul li a, body.home #bulletin2 .cell.twitter > div ul li a {
   font-weight: bold;
   color: #007d8b;
@@ -10645,18 +10655,18 @@ body.home #bulletin2 .cell.jobs > div ul li a, body.home #bulletin2 .cell.twitte
   text-decoration: underline;
 }
 
-/* line 677, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 681, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div ul li a:hover, body.home #bulletin2 .cell.twitter > div ul li a:hover {
   color: #0b3b49;
 }
 
-/* line 680, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 684, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.directions h4 {
   font-weight: normal;
   text-align: center;
 }
 
-/* line 683, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 687, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.directions .mapCircle {
   border-radius: 382px;
   border: 1px solid #dcdcdc;
@@ -10667,74 +10677,74 @@ body.home #bulletin2 .cell.directions .mapCircle {
   background-color: #ef7622;
 }
 
-/* line 691, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 695, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.directions .mapCircle img {
   opacity: 1;
 }
 
-/* line 693, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 697, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.directions .mapCircle:hover img {
   opacity: .6;
 }
 
-/* line 696, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 700, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.twitter .timeline-Widget ol.timeline-TweetList .timeline-Tweet-media {
   display: none;
 }
 
-/* line 698, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 702, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   list-style-type: none;
 }
 
 /********************************/
 /********************************/
-/* line 706, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 710, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content {
   margin: 3rem 0;
 }
 
-/* line 708, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 712, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content h1, .inner-content h2, .inner-content h3, .inner-content h4 {
   font-family: "Arial", sans-serif;
 }
 
-/* line 710, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 714, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content h1.entry-title.single-title {
   line-height: 4rem;
 }
 
-/* line 712, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 716, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content header.article-header {
   margin-bottom: 1rem;
 }
 
-/* line 714, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 718, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content header.article-header h2 {
   font-size: 2rem;
 }
 
-/* line 716, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 720, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content header.article-header img {
   margin-bottom: 1.5rem;
 }
 
-/* line 718, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 722, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content header.article-header h1.page-title {
   font-size: 2.5rem;
 }
 
-/* line 720, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 724, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content article {
   margin: 2rem 0;
 }
 
-/* line 723, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 727, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content .entry-content h2 {
   font-size: 2rem;
 }
 
-/* line 725, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 729, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content .entry-content h3 {
   font-size: 1.25rem;
   text-transform: uppercase;
@@ -10746,42 +10756,42 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   border-bottom-right-radius: 20px;
 }
 
-/* line 734, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 738, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content .entry-content h3:first-child {
   margin: 1rem 1.5rem 1.5rem 0;
 }
 
-/* line 738, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 742, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .accordion-title {
   font-size: 1.5rem;
 }
 
 /********************************/
 /********************************/
-/* line 748, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 752, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li {
   width: 100%;
   padding: 0 2rem 0 3.5rem;
 }
 
-/* line 751, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 755, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li a {
   text-transform: uppercase;
   padding: .7rem 0;
 }
 
-/* line 754, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 758, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li a:hover {
   text-indent: 2px;
 }
 
-/* line 756, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 760, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li.menu-item-has-children > a {
   border-bottom: 1px solid #adadad;
   position: relative;
 }
 
-/* line 759, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 763, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li.menu-item-has-children > a:after {
   border-right: 10px solid transparent;
   border-left: 10px solid transparent;
@@ -10793,7 +10803,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   z-index: 100;
 }
 
-/* line 768, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 772, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu .active > a {
   color: rgba(1, 86, 132, 0.7);
   position: relative;
@@ -10802,7 +10812,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   padding-left: 20px;
 }
 
-/* line 774, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 778, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu .active > a:before {
   border-bottom: 10px solid transparent;
   border-left: 10px solid #296a7d;
@@ -10814,17 +10824,17 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   z-index: 100;
 }
 
-/* line 784, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 788, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .sub-menu li {
   padding-left: 1rem;
 }
 
-/* line 786, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 790, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header {
   position: relative;
 }
 
-/* line 788, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 792, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header:before {
   content: "";
   background-size: 70px 70px;
@@ -10839,7 +10849,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   left: -15px;
 }
 
-/* line 800, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 804, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header h4 {
   color: #fff !important;
   font-size: 1.5rem !important;
@@ -10853,7 +10863,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   padding: .5rem;
 }
 
-/* line 811, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 815, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header h4 span {
   font-size: 1rem;
   font-family: "Arial", sans-serif;
@@ -10861,46 +10871,46 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   font-weight: normal;
 }
 
-/* line 817, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 821, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.mh:before {
   background: url("../images/MH-icon.png");
   background-size: 70px 70px;
 }
 
-/* line 820, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 824, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.mh h4 {
   background-color: #8c8c49;
 }
 
-/* line 823, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 827, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.ds:before {
   background: url("../images/DS-icon.png");
   background-size: 70px 70px;
 }
 
-/* line 826, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 830, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.ds h4 {
   background: #ef7622;
 }
 
-/* line 829, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 833, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.su:before {
   background: url("../images/SU-icon.png");
   background-size: 70px 70px;
 }
 
-/* line 832, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 836, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.su h4 {
   background: #ffa400;
   font-size: 1.25rem !important;
 }
 
-/* line 835, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 839, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.community h4 {
   background: #0b3b49;
 }
 
-/* line 838, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 842, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.menu-header, .sidebar li.who-header {
   font-size: 1.35rem;
   font-family: "Slabo 13px", serif;
@@ -10908,21 +10918,21 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   font-weight: bold;
 }
 
-/* line 843, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 847, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-child {
   background: url("../images/children-icon.png") no-repeat 55px 5px;
   background-size: 30px;
   padding-left: 5.5rem;
 }
 
-/* line 847, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 851, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-adult {
   background: url("../images/adult-icon.png") no-repeat 55px 5px;
   background-size: 30px;
   padding-left: 5.5rem;
 }
 
-/* line 851, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 855, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-family {
   background: url("../images/families-icon.png") no-repeat 55px 5px;
   background-size: 30px;
@@ -10930,135 +10940,135 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   padding-bottom: 2rem;
 }
 
-/* line 857, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 861, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-child.active a, .sidebar li.who-adult.active a, .sidebar li.who-family.active a {
   color: #fff;
 }
 
-/* line 859, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 863, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-child.active a:before, .sidebar li.who-adult.active a:before, .sidebar li.who-family.active a:before {
   left: auto;
   right: -15px;
   top: 10px;
 }
 
-/* line 864, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 868, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1, .sidebar ul#menu-in-the-community-1 {
   background-color: #e0e8ea;
 }
 
-/* line 866, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 870, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1 li:first-child, .sidebar ul#menu-in-the-community-1 li:first-child {
   padding-top: 2.5rem;
 }
 
-/* line 868, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 872, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1 li:last-child, .sidebar ul#menu-in-the-community-1 li:last-child {
   padding-bottom: 2rem;
 }
 
-/* line 870, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 874, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1 .sub-menu li:first-child, .sidebar ul#menu-in-the-community-1 .sub-menu li:first-child {
   padding-top: 1rem;
 }
 
-/* line 872, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 876, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1 .sub-menu li:last-child, .sidebar ul#menu-in-the-community-1 .sub-menu li:last-child {
   padding-bottom: 1rem;
 }
 
-/* line 874, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 878, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar {
   background-color: #fef5f0;
 }
 
-/* line 876, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 880, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar li.who-header {
   background-color: #fcddc8;
   padding-top: 1rem;
 }
 
-/* line 879, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 883, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar li.who-header a {
   background-color: #fcddc8;
 }
 
-/* line 881, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 885, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar li.who-child, .sidebar ul#menu-ds-sidebar li.who-adult, .sidebar ul#menu-ds-sidebar li.who-family {
   background-color: #fcddc8;
 }
 
-/* line 883, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 887, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar li.who-child.active, .sidebar ul#menu-ds-sidebar li.who-adult.active, .sidebar ul#menu-ds-sidebar li.who-family.active {
   background-color: #f3a570;
 }
 
-/* line 886, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 890, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar {
   background-color: #f3f3ec;
 }
 
-/* line 888, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 892, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar li.who-header {
   background-color: #e2e2d2;
   padding-top: 1rem;
 }
 
-/* line 891, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 895, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar li.who-header a {
   background-color: #e2e2d2;
 }
 
-/* line 893, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 897, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar li.who-child, .sidebar ul#menu-mh-sidebar li.who-adult, .sidebar ul#menu-mh-sidebar li.who-family {
   background-color: #e2e2d2;
 }
 
-/* line 895, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 899, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar li.who-child.active, .sidebar ul#menu-mh-sidebar li.who-adult.active, .sidebar ul#menu-mh-sidebar li.who-family.active {
   background-color: #b3b388;
 }
 
-/* line 898, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 902, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar {
   background-color: #ffedcc;
 }
 
-/* line 900, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 904, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar li.who-header {
   background-color: #ffd384;
   padding-top: 1rem;
 }
 
-/* line 903, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 907, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar li.who-header a {
   background-color: #ffd384;
 }
 
-/* line 905, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 909, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar li.who-child, .sidebar ul#menu-su-sidebar li.who-adult, .sidebar ul#menu-su-sidebar li.who-family {
   background-color: #ffd384;
 }
 
-/* line 907, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 911, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar li.who-child.active, .sidebar ul#menu-su-sidebar li.who-adult.active, .sidebar ul#menu-su-sidebar li.who-family.active {
   background-color: #ffa400;
 }
 
-/* line 910, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 914, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut {
   background: #007d8b;
   padding: 2rem 1rem;
   color: #fff;
   text-align: center;
-  width: 80%;
+  width: 90%;
   border-radius: 50px;
   margin: 3rem auto 0;
   font-size: 1.15rem;
   line-height: 1.5rem;
 }
 
-/* line 920, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 924, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut .title {
   display: block;
   text-transform: uppercase;
@@ -11067,7 +11077,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   padding-bottom: .5rem;
 }
 
-/* line 926, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 930, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut .phone {
   font-size: 2rem;
   font-weight: bold;
@@ -11076,30 +11086,30 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   margin: 10px 0;
 }
 
-/* line 932, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 936, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut .email {
   font-size: 1.75rem;
   color: #fff;
   font-family: "Slabo 13px", serif;
 }
 
-/* line 936, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 940, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut .email i {
   font-size: 2.25rem;
   padding-right: .5rem;
 }
 
-/* line 947, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 951, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .mega-menuHeader {
   width: 100%;
 }
 
-/* line 949, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 953, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .mega-menuHeader li.mega-menu-item {
   padding: 30px 0 2px 0 !important;
 }
 
-/* line 954, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 958, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .mega-menuIcon {
   position: absolute !important;
   top: 5px !important;
@@ -11110,21 +11120,21 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
 
 /********************************/
 /********************************/
-/* line 965, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 969, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories {
   background-color: #007d8b;
   padding: 4rem 2rem;
   color: #fff;
 }
 
-/* line 969, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 973, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories h2 {
   font-size: 1.5rem;
   color: #fff;
   margin-bottom: 1rem;
 }
 
-/* line 973, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 977, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .circleWrap {
   width: 275px;
   height: 275px;
@@ -11133,24 +11143,24 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   background-size: cover;
 }
 
-/* line 979, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 983, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-5 {
   position: relative;
 }
 
-/* line 981, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 985, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-5 .story {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 985, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 989, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-offset-1 {
   position: relative;
 }
 
-/* line 987, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 991, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-offset-1 blockquote {
   font-family: "Slabo 13px", serif;
   color: #fff;
@@ -11162,7 +11172,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   line-height: 1.4rem;
 }
 
-/* line 996, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1000, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-offset-1 span.author {
   font-size: 1.25rem;
   float: right;
@@ -11173,7 +11183,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   font-family: "Arial", sans-serif;
 }
 
-/* line 1004, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1008, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-offset-1 span.author:before {
   content: "~";
   position: absolute;
@@ -11182,19 +11192,19 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
 
 /********************************/
 /********************************/
-/* line 1014, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1018, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .footer {
   margin-top: 0;
 }
 
-/* line 1017, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1021, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer {
   background-color: #0b3b49;
   padding: 2rem 0;
   color: #fff;
 }
 
-/* line 1021, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1025, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer a h4 {
   color: #fff;
   font-weight: normal;
@@ -11205,12 +11215,12 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   float: left;
 }
 
-/* line 1030, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1034, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .cell:last-child a h4 {
   border-right: 0;
 }
 
-/* line 1032, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1036, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer span {
   display: inline-block;
   background-color: #fff;
@@ -11220,68 +11230,68 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   float: left;
 }
 
-/* line 1039, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1043, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer i {
   font-size: 2rem;
   display: inline-block;
   position: relative;
 }
 
-/* line 1044, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1048, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter h4 {
   padding-left: 10%;
 }
 
-/* line 1046, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1050, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter i {
   float: left;
   color: #fff;
   margin: 5px 0 0 10px;
 }
 
-/* line 1050, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1054, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter .fi-arrow-right:before {
   content: "\f10b";
 }
 
-/* line 1053, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1057, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter:hover h4 {
   color: #bbdde6;
 }
 
-/* line 1055, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1059, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter:hover i {
   animation: outandback .3s ease-in 1;
 }
 
-/* line 1058, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1062, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news span {
   margin: 10px 15px 0 20px;
   padding: 0 0 0 6px;
 }
 
-/* line 1061, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1065, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news span i {
   line-height: 2.75rem;
   color: #ffa400;
 }
 
-/* line 1064, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1068, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news span .fi-megaphone:before {
   transform: rotate(-15deg);
 }
 
-/* line 1067, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1071, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news:hover h4 {
   color: #bbdde6;
 }
 
-/* line 1069, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1073, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news:hover span {
   animation: push 0.3s ease-out 1;
 }
 
-/* line 1072, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1076, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .social h4 {
   font-weight: normal;
   text-align: center;
@@ -11292,29 +11302,29 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   float: left;
 }
 
-/* line 1080, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1084, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .social span {
   margin: 10px 5px;
   padding: 0 0 0 8px;
 }
 
-/* line 1083, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1087, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .social span i {
   line-height: 2.75rem;
   color: #0b3b49;
 }
 
-/* line 1086, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1090, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .social span:hover {
   animation: push 0.3s ease-out 1;
 }
 
-/* line 1088, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1092, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter, .top-footer .latest-news {
   position: relative;
 }
 
-/* line 1090, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1094, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter:after, .top-footer .latest-news:after {
   content: "";
   position: absolute;
@@ -11323,17 +11333,17 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   background-color: #406c77;
 }
 
-/* line 1096, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1100, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter:after {
   right: 15px;
 }
 
-/* line 1098, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1102, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news:after {
   right: 45px;
 }
 
-/* line 1102, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1106, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .colorBar {
   background: url("../images/footer-color-bar.jpg") repeat top left;
   height: 28px;
@@ -11341,19 +11351,19 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   border-top: 1px solid #fff;
 }
 
-/* line 1108, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1112, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer {
   padding: 2rem 2rem 0;
   text-transform: uppercase;
 }
 
-/* line 1111, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1115, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell {
   position: relative;
   margin-top: .75rem;
 }
 
-/* line 1115, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1119, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:after {
   content: "";
   position: absolute;
@@ -11364,17 +11374,17 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   right: -10px;
 }
 
-/* line 1123, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1127, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:nth-child(4):after, .bottom-footer .cell:nth-child(5):after {
   display: none;
 }
 
-/* line 1125, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1129, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:nth-child(1) {
   margin-top: 0;
 }
 
-/* line 1127, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1131, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:nth-child(2) p {
   font-weight: normal;
   text-transform: none;
@@ -11382,49 +11392,49 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   line-height: 1.3rem;
 }
 
-/* line 1132, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1136, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer h2 {
   font-family: "Arial", sans-serif;
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-/* line 1136, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1140, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer p {
   font-size: .8rem;
   line-height: 1rem;
   font-weight: bold;
 }
 
-/* line 1140, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1144, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul {
   margin-left: 0;
   list-style-type: none;
 }
 
-/* line 1143, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1147, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul li a {
   font-weight: bold;
   font-size: .8rem;
   padding: .25rem 0;
 }
 
-/* line 1147, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1151, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer img.footerLogo {
   margin-bottom: 1rem;
 }
 
-/* line 1149, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1153, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:first-child p {
   margin-left: 7rem;
 }
 
-/* line 1151, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1155, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .copy {
   border-top: 1px solid #ececec;
 }
 
-/* line 1153, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1157, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .copy p.copyright {
   margin: 0;
   padding: .75rem 0;
@@ -11432,30 +11442,30 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   text-transform: none;
 }
 
-/* line 1158, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1162, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.missionLogos li {
   width: 30%;
   float: left;
   margin-right: 10px;
 }
 
-/* line 1162, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1166, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.missionLogos li a:hover img {
   opacity: .7;
 }
 
-/* line 1164, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1168, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.missionLogos li:first-child {
   width: 65%;
   margin-bottom: 1rem;
 }
 
-/* line 1167, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1171, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.missionLogos li:last-child img {
   max-height: 67px;
 }
 
-/* line 1169, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1173, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.quickLinks li {
   width: 45%;
   float: left;
@@ -11463,12 +11473,12 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   margin: 0 .5rem .25rem 0;
 }
 
-/* line 1174, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1178, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.quickLinks li a {
   font-weight: normal;
 }
 
-/* line 1176, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1180, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.adminLinks + p {
   text-transform: none;
   font-weight: normal;
@@ -11476,12 +11486,12 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
 
 /********************************/
 /********************************/
-/* line 1185, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1189, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .inner-content {
   margin-top: 0;
 }
 
-/* line 1187, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1191, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .location {
   border-bottom: 1px solid #e4e4e4;
   margin: 2rem 0 1rem;
@@ -11489,7 +11499,7 @@ body.page-template-directions-locations .location {
   min-height: 177px;
 }
 
-/* line 1192, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1196, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .location span.circle {
   background: #0d88cd;
   color: #fff;
@@ -11504,19 +11514,19 @@ body.page-template-directions-locations .location span.circle {
   padding: 2px;
 }
 
-/* line 1204, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1208, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .location h4 {
   font-size: 1.25rem;
 }
 
-/* line 1206, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1210, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .location p {
   line-height: 1.25rem;
 }
 
 /********************************/
 /********************************/
-/* line 1215, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1219, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 div.whowehelp .entry-content h3 {
   background-color: #809da3;
   color: #fff;
@@ -11524,7 +11534,7 @@ div.whowehelp .entry-content h3 {
   border-top-left-radius: 20px;
 }
 
-/* line 1231, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1235, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .card {
   width: 45%;
   margin-right: 2%;
@@ -11534,33 +11544,33 @@ div.whowehelp .entry-content h3 {
 
 /********************************/
 /********************************/
-/* line 1242, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1246, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series header.article-header {
   margin-bottom: .5rem;
 }
 
-/* line 1244, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1248, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series header.article-header h2 {
   font-size: 1.5rem;
 }
 
-/* line 1246, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1250, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series article {
   margin-bottom: 3rem;
 }
 
-/* line 1248, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1252, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series h3.series {
   margin-bottom: 2rem;
   border-bottom: 5px solid #ececde;
 }
 
-/* line 1251, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1255, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series h3.series i {
   padding-left: 15px;
 }
 
-/* line 1254, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1258, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series p.tags, .article-footer p.tags {
   font-size: .9rem;
   font-weight: bold;
@@ -11569,32 +11579,32 @@ body.category-community-education-series p.tags, .article-footer p.tags {
   text-transform: uppercase;
 }
 
-/* line 1260, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1264, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series p.tags span, .article-footer p.tags span {
   padding: 0 .5rem 0 0;
   border-radius: 3px;
   font-weight: normal;
 }
 
-/* line 1264, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1268, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series p.tags span.episode, .article-footer p.tags span.episode {
   display: inline-block;
   margin-left: .8rem;
 }
 
-/* line 1268, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1272, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .return {
   margin-top: 2rem;
 }
 
-/* line 1271, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1275, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .taxonomy-description {
   margin-top: 2rem;
 }
 
 /********************************/
 /********************************/
-/* line 1279, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1283, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .category-special-events h1.page-title {
   text-align: center;
   padding: 2rem 0 1rem;
@@ -11602,17 +11612,17 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
   margin-bottom: 3rem;
 }
 
-/* line 1284, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1288, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .category-special-events .article {
   margin: 3rem 0;
 }
 
-/* line 1287, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1291, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .date-wrap {
   text-align: center;
 }
 
-/* line 1289, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1293, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .date-wrap .month {
   background: #e5f2f3;
   border-top-left-radius: 5px;
@@ -11621,7 +11631,7 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
   padding: .25rem;
 }
 
-/* line 1295, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1299, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .date-wrap .day {
   font-size: 3rem;
   line-height: 3rem;
@@ -11629,7 +11639,7 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
   border-right: 2px solid #e5f2f3;
 }
 
-/* line 1300, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1304, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .date-wrap .year {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -11638,31 +11648,31 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
   padding: .25rem;
 }
 
-/* line 1308, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1312, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .single-event .entry-title.single-title {
   padding-bottom: 2rem;
 }
 
-/* line 1310, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1314, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .single-event .article-header {
   overflow: hidden;
 }
 
-/* line 1312, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1316, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .single-event .date-wrap {
   width: 50%;
   float: left;
   margin-right: 5%;
 }
 
-/* line 1316, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1320, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .single-event p.tags {
   font-weight: bold;
   float: left;
   width: 45%;
 }
 
-/* line 1320, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1324, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 .single-event p.tags span {
   padding-bottom: .5rem;
   display: inline-block;
@@ -11671,7 +11681,7 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
 
 /********************************/
 /********************************/
-/* line 1332, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1336, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 div.wpcf7 label {
   font-size: 1rem;
   font-weight: bold;
@@ -11679,7 +11689,7 @@ div.wpcf7 label {
   color: #7b7b7b;
 }
 
-/* line 1339, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1343, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
   border-radius: 10px;
   background-color: #ff3a1e;
@@ -11690,12 +11700,12 @@ div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
 
 /********************************/
 /********************************/
-/* line 1351, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1355, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 a.burmese, div.burmese {
   font-family: "Padauk", sans-serif;
 }
 
-/* line 1355, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1359, /Users/Andrew/localhost/hc/wp-content/themes/howardcenter/assets/styles/scss/_howard.sass */
 li.trouble img {
   height: 33px;
 }
