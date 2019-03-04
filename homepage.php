@@ -50,6 +50,7 @@ get_header(); ?>
 					<li class="trouble"> <a href="<?php echo site_url(); ?>/welcome/أهلا بك"><img src="<?php echo get_template_directory_uri(); ?>/assets/images/arabic-welcome.png"/></a></li>
 					<li><a href="<?php echo site_url(); ?>/welcome/歡迎">歡迎</a></li>
 					<li><a href="<?php echo site_url(); ?>/welcome/स्वागत छ">स्वागत छ</a></li>
+					<li><a class="burmese" href="<?php echo site_url(); ?>/welcome/%e2%80%80-%E1%80%BC%E1%80%AD%E1%80%AF%E1%80%86-%E1%80%AD%E1%80%AF/">က ြိုဆ</a></li>
 				</ul>
 				<ul>
 					<li><a href="<?php echo site_url(); ?>/welcome/soo-dhawee">Soo dhawee</a></li>
