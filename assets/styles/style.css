@@ -9681,30 +9681,38 @@ body {
   color: #0b3b49;
 }
 
+/* line 94, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+.wp-caption {
+  background: transparent;
+  padding: 5px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
 /********************* */
 /* LINK STYLES */
 /********************* */
-/* line 99, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 105, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a:link, a:visited:link {
   -webkit-tap-highlight-color: #3094b1;
 }
 
-/* line 102, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 108, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a:hover, a:visited:hover {
   color: #206a80;
 }
 
-/* line 105, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 111, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .entry-content a, p.tags a {
   color: #3094b1;
 }
 
-/* line 107, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 113, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .entry-content a:hover, p.tags a:hover {
   color: #206a80;
 }
 
-/* line 111, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 117, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a.button {
   background: #007d8b;
   font-size: 1.25rem;
@@ -9717,7 +9725,7 @@ a.button:hover {
   color: #fff;
 }
 
-/* line 113, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 119, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a.button .arrow {
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
@@ -9727,12 +9735,12 @@ a.button .arrow {
   width: 0;
 }
 
-/* line 115, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 121, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a.button:hover {
   color: #fff;
 }
 
-/* line 117, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 123, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a.button:hover .arrow {
   border-top: 8px solid transparent;
   border-bottom: 8px solid transparent;
@@ -9742,7 +9750,7 @@ a.button:hover .arrow {
   width: 0;
 }
 
-/* line 120, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 126, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .wpcf7-submit {
   background: #cccccc;
   font-size: 1.25rem;
@@ -9755,13 +9763,13 @@ a.button:hover .arrow {
   cursor: pointer;
 }
 
-/* line 130, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 136, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .wpcf7-submit:hover {
   color: #fff;
   background-color: #007d8b;
 }
 
-/* line 135, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 141, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .button.orange {
   background: #ef7622;
   color: #fff;
@@ -9779,35 +9787,35 @@ a.button:hover .arrow {
 /********************* */
 /* H1, H2, H3, H4, H5 P STYLES */
 /********************* */
-/* line 141, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 147, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5 {
   font-family: "Slabo 13px", serif;
   font-weight: bold;
   color: #0b3b49;
 }
 
-/* line 147, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 153, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 h1 a, .h1 a, h2 a, .h2 a, h3 a, .h3 a, h4 a, .h4 a, h5 a, .h5 a {
   text-decoration: none;
 }
 
-/* line 150, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 156, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 h1, .h1 {
   line-height: 2.8rem;
 }
 
-/* line 161, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 167, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 p {
   line-height: 1.5rem;
 }
 
-/* line 164, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 170, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 ul.check {
   list-style: none;
   margin-left: 0;
 }
 
-/* line 167, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 173, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 ul.check li {
   padding-left: 35px;
   background: url(../images/greencheck.png) no-repeat 0px 2px;
@@ -9816,7 +9824,7 @@ ul.check li {
   margin-bottom: .25rem;
 }
 
-/* line 174, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 180, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 blockquote {
   font-size: 1.2rem;
   font-weight: 300;
@@ -9825,37 +9833,37 @@ blockquote {
   position: relative;
 }
 
-/* line 180, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 186, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 blockquote:after, blockquote:before {
   content: "\0022";
   position: absolute;
   font-size: 1.5rem;
 }
 
-/* line 184, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 190, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 blockquote:before {
   left: 0;
 }
 
-/* line 187, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 193, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 select {
   border: 1px solid #007d8b;
   color: #0b3b49;
 }
 
-/* line 191, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 197, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .search {
   position: relative;
 }
 
-/* line 193, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 199, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .search input {
   text-indent: 32px;
   border-radius: 25px;
   border-color: #007d8b;
 }
 
-/* line 197, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 203, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .search .fi-magnifying-glass {
   position: absolute;
   left: 12px;
@@ -9865,27 +9873,27 @@ select {
 
 /********************************/
 /********************************/
-/* line 209, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 215, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement.emergency {
   background-color: #ef7622;
 }
 
-/* line 211, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 217, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement.emergency a.button {
   background-color: #dd5001;
 }
 
-/* line 213, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 219, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement.info {
   background-color: #feb742;
 }
 
-/* line 215, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 221, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement.info a.button {
   background-color: #eb970d;
 }
 
-/* line 217, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 223, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement i {
   float: left;
   font-size: 2rem;
@@ -9893,7 +9901,7 @@ div.announcement i {
   color: #fff;
 }
 
-/* line 222, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 228, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement h3 {
   color: #fff;
   font-family: "Arial", sans-serif;
@@ -9903,7 +9911,7 @@ div.announcement h3 {
   float: left;
 }
 
-/* line 229, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 235, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement a.button {
   padding: .5rem 1rem;
   margin: .75rem 0;
@@ -9912,35 +9920,35 @@ div.announcement a.button {
   float: left;
 }
 
-/* line 235, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 241, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement a.button:hover {
   opacity: .75;
 }
 
-/* line 237, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 243, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.announcement a#closeit {
   float: right;
   color: #fff;
   padding: 1rem .5rem;
 }
 
-/* line 244, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 250, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .zeno_font_resizer_container {
   width: 47px;
   float: left;
 }
 
-/* line 247, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 253, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .zeno_font_resizer_container p {
   margin: 0;
 }
 
-/* line 251, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 257, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li {
   padding: .5rem 0;
 }
 
-/* line 253, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 259, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li a {
   font-weight: bold;
   color: #0b3b49;
@@ -9949,45 +9957,45 @@ div.announcement a#closeit {
   border-right: 2px solid #0b3b49;
 }
 
-/* line 259, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 265, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li a:hover {
   color: #457786;
 }
 
-/* line 261, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 267, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li.active a {
   background-color: transparent;
 }
 
-/* line 264, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 270, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li:last-child a {
   border-right: 0;
 }
 
-/* line 267, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 273, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li.gtranslate-parent ul.dropdown-menu {
   list-style-type: none;
 }
 
-/* line 269, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 275, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li.gtranslate-parent a {
   padding: 0 1.25rem 0 2rem;
 }
 
-/* line 272, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 278, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li.gtranslate-parent {
   background: url("../images/translate.png") no-repeat 6% 50%;
   background-size: 20px;
   position: relative;
 }
 
-/* line 276, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 282, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #menu-utility-links-1 li.gtranslate-parent ul.dropdown-menu {
   max-height: 300px;
   overflow-y: auto;
 }
 
-/* line 280, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 286, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 li.portal a, li.donate a {
   padding: .35rem .75rem;
   border-radius: 15px;
@@ -9996,43 +10004,43 @@ li.portal a, li.donate a {
   text-transform: uppercase;
 }
 
-/* line 287, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 293, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 li.portal a {
   background: #fff;
   color: #0b3b49;
   border: 1px solid #0b3b49;
 }
 
-/* line 291, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 297, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 li.portal a:hover {
   background: #0b3b49;
   color: #fff;
 }
 
-/* line 295, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 301, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 li.donate a {
   background: #007d8b;
   color: #fff;
 }
 
-/* line 298, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 304, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 li.donate a:hover {
   background: #0b3b49;
   color: #fff;
 }
 
-/* line 304, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 310, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain, .callOut {
   padding-bottom: 1rem;
 }
 
-/* line 306, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 312, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain img.logo, .callOut img.logo {
   width: 360px;
   margin-top: 15px;
 }
 
-/* line 309, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 315, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .helpNow, .headerMain .mainNumber, .callOut .helpNow, .callOut .mainNumber {
   border-radius: 50px;
   padding: .5rem;
@@ -10040,25 +10048,25 @@ li.donate a:hover {
   text-align: center;
 }
 
-/* line 314, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 320, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .helpNow span, .headerMain .mainNumber span, .callOut .helpNow span, .callOut .mainNumber span {
   font-size: 1.2rem;
   text-align: center;
 }
 
-/* line 317, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 323, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .helpNow span:first-child, .headerMain .mainNumber span:first-child, .callOut .helpNow span:first-child, .callOut .mainNumber span:first-child {
   font-family: "Slabo 13px", serif;
 }
 
-/* line 319, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 325, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .helpNow span.number, .headerMain .mainNumber span.number, .callOut .helpNow span.number, .callOut .mainNumber span.number {
   font-size: 1.75rem;
   font-weight: 900;
   margin-top: -7px;
 }
 
-/* line 323, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 329, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .helpNow, .callOut .helpNow {
   background: #ff3a1e url("../images/First-Call-4c.png") no-repeat top right;
   color: #fff;
@@ -10066,29 +10074,29 @@ li.donate a:hover {
   transition: all 0.3 ease-in-out;
 }
 
-/* line 328, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 334, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .helpNow span, .callOut .helpNow span {
   margin-left: -15px;
 }
 
-/* line 330, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 336, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .helpNow:hover, .callOut .helpNow:hover {
   background-color: #da321a;
   cursor: pointer;
 }
 
-/* line 333, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 339, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .helpNow a, .callOut .helpNow a {
   color: #fff;
 }
 
-/* line 335, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 341, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .mainNumber, .callOut .mainNumber {
   background: #e5ebec;
   color: #0b3b49;
 }
 
-/* line 339, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 345, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .mainNumber .mainEmail, .callOut .mainNumber .mainEmail {
   border-left: 1px solid #7196a0;
   height: 50px;
@@ -10099,70 +10107,70 @@ li.donate a:hover {
   margin: 10px 0 0 0;
 }
 
-/* line 347, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 353, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .headerMain .mainNumber .mainEmail i, .callOut .mainNumber .mainEmail i {
   display: block;
   font-size: 2rem;
   line-height: 1rem;
 }
 
-/* line 352, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 358, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .callOut .helpNow {
   margin: 0;
 }
 
-/* line 354, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 360, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .callOut .helpNow span {
   line-height: 2rem;
 }
 
-/* line 360, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 366, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .megaMenu {
   background-color: #007d8b;
 }
 
-/* line 364, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 370, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-11 {
   max-width: 241px;
   background-color: #0b3b49;
 }
 
-/* line 367, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 373, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-12 {
   max-width: 238px;
   background-color: #0b3b49;
 }
 
-/* line 370, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 376, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-13 {
   max-width: 318px;
   background-color: #0b3b49;
 }
 
-/* line 374, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 380, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-search .search-icon:before {
   line-height: 49px !important;
 }
 
-/* line 376, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 382, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-search.expand-to-right {
   top: 0;
 }
 
-/* line 380, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 386, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav a.mega-menu-link:before {
   float: left;
   background-position: 0px -1px;
 }
 
-/* line 383, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 389, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav a.mega-menu-link {
   padding-top: 10px;
   line-height: 19px;
   font-family: "Slabo 13px", serif;
 }
 
-/* line 387, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 393, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-11 span, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-12 span, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-13 span {
   font-family: Arial, sans-serif;
   text-transform: uppercase;
@@ -10171,44 +10179,44 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-
   font-size: .9rem;
 }
 
-/* line 393, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 399, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav ul.sub-menu {
   padding-left: 20px;
 }
 
-/* line 395, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 401, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav ul.sub-menu li:last-child {
   border-bottom: 0 !important;
 }
 
-/* line 398, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 404, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #mega-menu-wrap-mega-nav #mega-menu-mega-nav li#mega-menu-item-131 .mega-search .search-icon:before {
   font-size: 1.35rem;
   display: block;
   margin-top: 5px;
 }
 
-/* line 407, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 413, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-11 .mega-menuHeader {
   background: #ef7622;
 }
 
-/* line 409, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 415, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-12 .mega-menuHeader {
   background: #8c8c49;
 }
 
-/* line 411, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 417, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-13 .mega-menuHeader {
   background: #ffa400;
 }
 
-/* line 413, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 419, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-14 .mega-menuHeader, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #mega-menu-item-15 .mega-menuHeader {
   background: #007d8b;
 }
 
-/* line 416, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 422, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-ds li.helpNow, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-mh li.helpNow, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-su li.helpNow, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help li.helpNow, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help-1 li.helpNow {
   color: #fff;
   border-radius: 9px;
@@ -10217,88 +10225,88 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getti
   padding: 5px 10px;
 }
 
-/* line 422, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 428, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help li.helpNow {
   background-color: #007d8b;
 }
 
-/* line 424, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 430, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help li.helpNow:hover {
   background-color: #00acbf;
   color: #fff;
 }
 
-/* line 427, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 433, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-i-need-help li.helpNow a:hover {
   color: #fff;
 }
 
-/* line 429, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 435, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-ds li.helpNow {
   background-color: #ef7622;
 }
 
-/* line 431, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 437, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-ds li.helpNow:hover {
   background-color: #f18941;
   color: #fff;
 }
 
-/* line 434, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 440, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-ds li.helpNow a:hover {
   color: #fff;
 }
 
-/* line 436, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 442, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-mh li.helpNow {
   background-color: #8c8c49;
 }
 
-/* line 438, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 444, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-mh li.helpNow:hover {
   background-color: #a7a757;
   color: #fff;
 }
 
-/* line 441, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 447, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-mh li.helpNow a:hover {
   color: #fff;
 }
 
-/* line 443, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 449, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-su li.helpNow {
   background-color: #ffa400;
 }
 
-/* line 445, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 451, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-su li.helpNow:hover {
   background-color: #ffb124;
   color: #fff;
 }
 
-/* line 448, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 454, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav #menu-getting-started-su li.helpNow a:hover {
   color: #fff;
 }
 
-/* line 450, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 456, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuHeader {
   width: 100%;
 }
 
-/* line 452, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 458, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuHeader li.mega-menu-item {
   padding: 30px 0 2px 0 !important;
 }
 
-/* line 454, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 460, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuHeader li.mega-menu-item h4 {
   color: #fff !important;
   font-size: 1.5rem !important;
   padding-left: 225px;
 }
 
-/* line 458, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 464, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuHeader li.mega-menu-item h4 span {
   font-size: 1rem;
   font-family: "Arial", sans-serif;
@@ -10306,7 +10314,7 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuH
   font-weight: normal;
 }
 
-/* line 463, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 469, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuIcon {
   position: absolute !important;
   top: 5px !important;
@@ -10315,13 +10323,13 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav .mega-menuI
   z-index: 100;
 }
 
-/* line 472, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 478, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-menu-item.widget_nav_menu ul li {
   border-bottom: 1px solid #809da4;
   padding: .4rem 0;
 }
 
-/* line 475, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 481, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-menu-item.widget_nav_menu ul li a {
   text-transform: uppercase;
   font-weight: 600;
@@ -10329,12 +10337,12 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-men
   transition: all 0.3s ease-in-out;
 }
 
-/* line 480, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 486, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-menu-item.widget_nav_menu ul li a:hover {
   color: #a4bcc2;
 }
 
-/* line 483, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 489, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-smallRight a.mega-menu-link, body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-smallRight div.mega-search-wrap {
   background-color: #007d8b !important;
   font-weight: normal !important;
@@ -10349,12 +10357,12 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-sma
 
 /********************************/
 /********************************/
-/* line 499, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 505, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .orbit {
   width: 100%;
 }
 
-/* line 502, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 508, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #hero {
   height: 450px;
   width: 100%;
@@ -10363,7 +10371,7 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-sma
   background-size: cover;
 }
 
-/* line 510, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 516, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #langWelcome {
   width: 100%;
   background-color: #e5f2f3;
@@ -10371,13 +10379,13 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-sma
   text-align: center;
 }
 
-/* line 515, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 521, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #langWelcome ul {
   list-style-type: none;
   margin-bottom: 0;
 }
 
-/* line 518, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 524, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 #langWelcome ul li {
   display: inline-block;
   padding: .5rem 1rem;
@@ -10387,34 +10395,34 @@ body.mega-menu-mega-nav #mega-menu-wrap-mega-nav #mega-menu-mega-nav li.mega-sma
 
 /********************************/
 /********************************/
-/* line 529, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 535, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .inner-content {
   margin: 0;
 }
 
-/* line 531, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 537, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home header.article-header {
   display: none;
 }
 
-/* line 533, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 539, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home main.main {
   padding: 0;
 }
 
-/* line 535, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 541, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons {
   text-align: center;
   margin-top: 3rem;
 }
 
-/* line 538, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 544, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons.grid-x > .large-1 {
   width: 11.33333%;
   padding: 5px;
 }
 
-/* line 541, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 547, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons h4 {
   font-size: 1rem;
   font-family: "Arial", sans-serif;
@@ -10422,7 +10430,7 @@ body.home .useIcons h4 {
   text-transform: uppercase;
 }
 
-/* line 546, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 552, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons h5 {
   font-size: .9rem;
   font-weight: normal;
@@ -10430,28 +10438,28 @@ body.home .useIcons h5 {
   font-family: "Arial", sans-serif;
 }
 
-/* line 551, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 557, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons img.icon {
   width: 75%;
 }
 
-/* line 553, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 559, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons .icon-button {
   display: block;
   transition: .4s;
 }
 
-/* line 556, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 562, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons .icon-button:hover {
   transform: translate(0, -10px);
 }
 
-/* line 558, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 564, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .useIcons .icon-button:hover h4, body.home .useIcons .icon-button:hover h5 {
   color: #5d7075;
 }
 
-/* line 560, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 566, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home h3.needHelp {
   text-align: center;
   margin: 4rem 0 2rem;
@@ -10461,7 +10469,7 @@ body.home h3.needHelp {
   font-weight: normal;
 }
 
-/* line 568, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 574, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .help ul.dropdown {
   text-indent: 32px;
   border-radius: 25px;
@@ -10469,14 +10477,14 @@ body.home .help ul.dropdown {
   padding: .35rem;
 }
 
-/* line 573, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 579, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .help ul.dropdown li:first-child {
   position: relative;
   width: 95%;
   font-weight: bold;
 }
 
-/* line 577, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 583, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .help ul.dropdown li:first-child:after {
   border-right: 10px solid rgba(0, 0, 0, 0);
   border-left: 10px solid rgba(0, 0, 0, 0);
@@ -10489,7 +10497,7 @@ body.home .help ul.dropdown li:first-child:after {
   width: 10px;
 }
 
-/* line 587, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 593, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home .help ul.dropdown li a {
   text-indent: 0;
   font-weight: normal;
@@ -10497,26 +10505,26 @@ body.home .help ul.dropdown li a {
   padding: .5rem;
 }
 
-/* line 592, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 598, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 {
   background-color: #f0f0e7;
   margin-top: 4rem;
   padding: 3rem 2rem 2rem;
 }
 
-/* line 596, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 602, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 h3.bulletinHeading {
   text-align: center;
   margin-bottom: 2rem;
   font-size: 1.75rem;
 }
 
-/* line 600, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 606, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell {
   padding: 0 1rem 2rem;
 }
 
-/* line 602, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 608, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a {
   position: relative;
   display: block;
@@ -10524,7 +10532,7 @@ body.home #bulletin1 div.cell a {
   overflow: hidden;
 }
 
-/* line 607, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 613, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info {
   visibility: hidden;
   opacity: 0;
@@ -10537,56 +10545,56 @@ body.home #bulletin1 div.cell a .post-info {
   height: 100%;
 }
 
-/* line 617, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 623, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info p {
   line-height: 1.75rem;
   top: 35%;
   position: relative;
 }
 
-/* line 621, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 627, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Blue {
   background-color: #0b3b49;
   color: #fff;
 }
 
-/* line 624, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 630, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Orange {
   background-color: #ffa400;
   color: #0b3b49;
 }
 
-/* line 627, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 633, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Red {
   background-color: #ff3a1e;
   color: #fff;
 }
 
-/* line 630, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 636, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Orange.red {
   background-color: #ef7622;
   color: #blue;
 }
 
-/* line 633, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 639, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Green.blue {
   background-color: #007d8b;
   color: #0b3b49;
 }
 
-/* line 636, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 642, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a .post-info.Olive {
   background-color: #8c8c49;
   color: #fff;
 }
 
-/* line 639, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 645, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 div.cell a:hover .post-info {
   visibility: visible;
   opacity: 1;
 }
 
-/* line 642, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 648, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 button.slick-prev, body.home #bulletin1 button.slick-next {
   text-indent: -9999px;
   width: 20px;
@@ -10598,27 +10606,27 @@ body.home #bulletin1 button.slick-prev, body.home #bulletin1 button.slick-next {
   cursor: pointer;
 }
 
-/* line 651, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 657, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 button.slick-prev {
   float: left;
   transform: rotate(-45deg);
   left: 0;
 }
 
-/* line 655, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 661, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin1 button.slick-next {
   float: right;
   transform: rotate(135deg);
   right: 10px;
 }
 
-/* line 659, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 665, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 {
   background-color: #f0f0e7;
   padding: 0 2rem 2rem;
 }
 
-/* line 662, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 668, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div, body.home #bulletin2 .cell.twitter > div {
   background: #fff;
   border: 1px solid #dcdcdc;
@@ -10626,28 +10634,28 @@ body.home #bulletin2 .cell.jobs > div, body.home #bulletin2 .cell.twitter > div 
   padding: 2rem;
 }
 
-/* line 667, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 673, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div h5, body.home #bulletin2 .cell.twitter > div h5 {
   font-weight: normal;
 }
 
-/* line 669, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 675, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div h3, body.home #bulletin2 .cell.twitter > div h3 {
   font-weight: normal;
 }
 
-/* line 671, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 677, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div ul, body.home #bulletin2 .cell.twitter > div ul {
   list-style-type: none;
   margin: 1rem 0 2rem;
 }
 
-/* line 674, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 680, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div ul li, body.home #bulletin2 .cell.twitter > div ul li {
   padding: .25rem 0;
 }
 
-/* line 676, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 682, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div ul li a, body.home #bulletin2 .cell.twitter > div ul li a {
   font-weight: bold;
   color: #007d8b;
@@ -10655,18 +10663,18 @@ body.home #bulletin2 .cell.jobs > div ul li a, body.home #bulletin2 .cell.twitte
   text-decoration: underline;
 }
 
-/* line 681, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 687, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.jobs > div ul li a:hover, body.home #bulletin2 .cell.twitter > div ul li a:hover {
   color: #0b3b49;
 }
 
-/* line 684, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 690, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.directions h4 {
   font-weight: normal;
   text-align: center;
 }
 
-/* line 687, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 693, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.directions .mapCircle {
   border-radius: 382px;
   border: 1px solid #dcdcdc;
@@ -10677,74 +10685,74 @@ body.home #bulletin2 .cell.directions .mapCircle {
   background-color: #ef7622;
 }
 
-/* line 695, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 701, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.directions .mapCircle img {
   opacity: 1;
 }
 
-/* line 697, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 703, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.directions .mapCircle:hover img {
   opacity: .6;
 }
 
-/* line 700, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 706, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.twitter .timeline-Widget ol.timeline-TweetList .timeline-Tweet-media {
   display: none;
 }
 
-/* line 702, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 708, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   list-style-type: none;
 }
 
 /********************************/
 /********************************/
-/* line 710, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 716, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content {
   margin: 3rem 0;
 }
 
-/* line 712, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 718, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content h1, .inner-content h2, .inner-content h3, .inner-content h4 {
   font-family: "Arial", sans-serif;
 }
 
-/* line 714, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 720, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content h1.entry-title.single-title {
   line-height: 4rem;
 }
 
-/* line 716, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 722, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content header.article-header {
   margin-bottom: 1rem;
 }
 
-/* line 718, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 724, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content header.article-header h2 {
   font-size: 2rem;
 }
 
-/* line 720, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 726, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content header.article-header img {
   margin-bottom: 1.5rem;
 }
 
-/* line 722, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 728, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content header.article-header h1.page-title {
   font-size: 2.5rem;
 }
 
-/* line 724, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 730, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content article {
   margin: 2rem 0;
 }
 
-/* line 727, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 733, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content .entry-content h2 {
   font-size: 2rem;
 }
 
-/* line 729, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 735, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content .entry-content h3 {
   font-size: 1.25rem;
   text-transform: uppercase;
@@ -10756,42 +10764,42 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   border-bottom-right-radius: 20px;
 }
 
-/* line 738, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 744, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .inner-content .entry-content h3:first-child {
   margin: 1rem 1.5rem 1.5rem 0;
 }
 
-/* line 742, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 748, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .accordion-title {
   font-size: 1.5rem;
 }
 
 /********************************/
 /********************************/
-/* line 752, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 758, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li {
   width: 100%;
   padding: 0 2rem 0 3.5rem;
 }
 
-/* line 755, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 761, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li a {
   text-transform: uppercase;
   padding: .7rem 0;
 }
 
-/* line 758, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 764, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li a:hover {
   text-indent: 2px;
 }
 
-/* line 760, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 766, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li.menu-item-has-children > a {
   border-bottom: 1px solid #adadad;
   position: relative;
 }
 
-/* line 763, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 769, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu li.menu-item-has-children > a:after {
   border-right: 10px solid rgba(0, 0, 0, 0);
   border-left: 10px solid rgba(0, 0, 0, 0);
@@ -10803,7 +10811,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   z-index: 100;
 }
 
-/* line 772, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 778, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu .active > a {
   color: rgba(1, 86, 132, 0.7);
   position: relative;
@@ -10812,7 +10820,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   padding-left: 20px;
 }
 
-/* line 778, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 784, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .menu .active > a:before {
   border-bottom: 10px solid rgba(0, 0, 0, 0);
   border-left: 10px solid #296a7d;
@@ -10824,17 +10832,17 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   z-index: 100;
 }
 
-/* line 788, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 794, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .sub-menu li {
   padding-left: 1rem;
 }
 
-/* line 790, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 796, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header {
   position: relative;
 }
 
-/* line 792, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 798, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header:before {
   content: "";
   background-size: 70px 70px;
@@ -10849,7 +10857,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   left: -15px;
 }
 
-/* line 804, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 810, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header h4 {
   color: #fff !important;
   font-size: 1.5rem !important;
@@ -10863,7 +10871,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   padding: .5rem;
 }
 
-/* line 815, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 821, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header h4 span {
   font-size: 1rem;
   font-family: "Arial", sans-serif;
@@ -10871,46 +10879,46 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   font-weight: normal;
 }
 
-/* line 821, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 827, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.mh:before {
   background: url("../images/MH-icon.png");
   background-size: 70px 70px;
 }
 
-/* line 824, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 830, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.mh h4 {
   background-color: #8c8c49;
 }
 
-/* line 827, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 833, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.ds:before {
   background: url("../images/DS-icon.png");
   background-size: 70px 70px;
 }
 
-/* line 830, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 836, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.ds h4 {
   background: #ef7622;
 }
 
-/* line 833, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 839, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.su:before {
   background: url("../images/SU-icon.png");
   background-size: 70px 70px;
 }
 
-/* line 836, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 842, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.su h4 {
   background: #ffa400;
   font-size: 1.25rem !important;
 }
 
-/* line 839, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 845, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar div.header.community h4 {
   background: #0b3b49;
 }
 
-/* line 842, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 848, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.menu-header, .sidebar li.who-header {
   font-size: 1.35rem;
   font-family: "Slabo 13px", serif;
@@ -10918,21 +10926,21 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   font-weight: bold;
 }
 
-/* line 847, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 853, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-child {
   background: url("../images/children-icon.png") no-repeat 55px 5px;
   background-size: 30px;
   padding-left: 5.5rem;
 }
 
-/* line 851, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 857, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-adult {
   background: url("../images/adult-icon.png") no-repeat 55px 5px;
   background-size: 30px;
   padding-left: 5.5rem;
 }
 
-/* line 855, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 861, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-family {
   background: url("../images/families-icon.png") no-repeat 55px 5px;
   background-size: 30px;
@@ -10940,122 +10948,122 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   padding-bottom: 2rem;
 }
 
-/* line 861, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 867, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-child.active a, .sidebar li.who-adult.active a, .sidebar li.who-family.active a {
   color: #fff;
 }
 
-/* line 863, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 869, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar li.who-child.active a:before, .sidebar li.who-adult.active a:before, .sidebar li.who-family.active a:before {
   left: auto;
   right: -15px;
   top: 10px;
 }
 
-/* line 868, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 874, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1, .sidebar ul#menu-in-the-community-1 {
   background-color: #e0e8ea;
 }
 
-/* line 870, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 876, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1 li:first-child, .sidebar ul#menu-in-the-community-1 li:first-child {
   padding-top: 2.5rem;
 }
 
-/* line 872, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 878, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1 li:last-child, .sidebar ul#menu-in-the-community-1 li:last-child {
   padding-bottom: 2rem;
 }
 
-/* line 874, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 880, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1 .sub-menu li:first-child, .sidebar ul#menu-in-the-community-1 .sub-menu li:first-child {
   padding-top: 1rem;
 }
 
-/* line 876, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 882, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-our-organization-1 .sub-menu li:last-child, .sidebar ul#menu-in-the-community-1 .sub-menu li:last-child {
   padding-bottom: 1rem;
 }
 
-/* line 878, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 884, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar {
   background-color: #fef5f0;
 }
 
-/* line 880, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 886, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar li.who-header {
   background-color: #fcddc8;
   padding-top: 1rem;
 }
 
-/* line 883, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 889, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar li.who-header a {
   background-color: #fcddc8;
 }
 
-/* line 885, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 891, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar li.who-child, .sidebar ul#menu-ds-sidebar li.who-adult, .sidebar ul#menu-ds-sidebar li.who-family {
   background-color: #fcddc8;
 }
 
-/* line 887, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 893, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-ds-sidebar li.who-child.active, .sidebar ul#menu-ds-sidebar li.who-adult.active, .sidebar ul#menu-ds-sidebar li.who-family.active {
   background-color: #f3a570;
 }
 
-/* line 890, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 896, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar {
   background-color: #f3f3ec;
 }
 
-/* line 892, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 898, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar li.who-header {
   background-color: #e2e2d2;
   padding-top: 1rem;
 }
 
-/* line 895, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 901, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar li.who-header a {
   background-color: #e2e2d2;
 }
 
-/* line 897, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 903, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar li.who-child, .sidebar ul#menu-mh-sidebar li.who-adult, .sidebar ul#menu-mh-sidebar li.who-family {
   background-color: #e2e2d2;
 }
 
-/* line 899, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 905, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-mh-sidebar li.who-child.active, .sidebar ul#menu-mh-sidebar li.who-adult.active, .sidebar ul#menu-mh-sidebar li.who-family.active {
   background-color: #b3b388;
 }
 
-/* line 902, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 908, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar {
   background-color: #ffedcc;
 }
 
-/* line 904, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 910, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar li.who-header {
   background-color: #ffd384;
   padding-top: 1rem;
 }
 
-/* line 907, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 913, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar li.who-header a {
   background-color: #ffd384;
 }
 
-/* line 909, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 915, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar li.who-child, .sidebar ul#menu-su-sidebar li.who-adult, .sidebar ul#menu-su-sidebar li.who-family {
   background-color: #ffd384;
 }
 
-/* line 911, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 917, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar ul#menu-su-sidebar li.who-child.active, .sidebar ul#menu-su-sidebar li.who-adult.active, .sidebar ul#menu-su-sidebar li.who-family.active {
   background-color: #ffa400;
 }
 
-/* line 914, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 920, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut {
   background: #007d8b;
   padding: 2rem 1rem;
@@ -11068,7 +11076,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   line-height: 1.5rem;
 }
 
-/* line 924, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 930, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut .title {
   display: block;
   text-transform: uppercase;
@@ -11077,7 +11085,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   padding-bottom: .5rem;
 }
 
-/* line 930, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 936, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut .phone {
   font-size: 2rem;
   font-weight: bold;
@@ -11086,30 +11094,30 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   margin: 10px 0;
 }
 
-/* line 936, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 942, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut .email {
   font-size: 1.75rem;
   color: #fff;
   font-family: "Slabo 13px", serif;
 }
 
-/* line 940, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 946, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .sidebar .callOut .email i {
   font-size: 2.25rem;
   padding-right: .5rem;
 }
 
-/* line 951, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 957, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .mega-menuHeader {
   width: 100%;
 }
 
-/* line 953, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 959, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .mega-menuHeader li.mega-menu-item {
   padding: 30px 0 2px 0 !important;
 }
 
-/* line 958, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 964, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .mega-menuIcon {
   position: absolute !important;
   top: 5px !important;
@@ -11120,21 +11128,21 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
 
 /********************************/
 /********************************/
-/* line 969, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 975, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories {
   background-color: #007d8b;
   padding: 4rem 2rem;
   color: #fff;
 }
 
-/* line 973, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 979, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories h2 {
   font-size: 1.5rem;
   color: #fff;
   margin-bottom: 1rem;
 }
 
-/* line 977, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 983, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .circleWrap {
   width: 275px;
   height: 275px;
@@ -11143,24 +11151,24 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   background-size: cover;
 }
 
-/* line 983, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 989, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-5 {
   position: relative;
 }
 
-/* line 985, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 991, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-5 .story {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
 }
 
-/* line 989, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 995, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-offset-1 {
   position: relative;
 }
 
-/* line 991, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 997, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-offset-1 blockquote {
   font-family: "Slabo 13px", serif;
   color: #fff;
@@ -11172,7 +11180,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   line-height: 1.4rem;
 }
 
-/* line 1000, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1006, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-offset-1 span.author {
   font-size: 1.25rem;
   float: right;
@@ -11183,7 +11191,7 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   font-family: "Arial", sans-serif;
 }
 
-/* line 1008, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1014, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .hc-stories .large-offset-1 span.author:before {
   content: "~";
   position: absolute;
@@ -11192,19 +11200,19 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
 
 /********************************/
 /********************************/
-/* line 1018, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1024, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .footer {
   margin-top: 0;
 }
 
-/* line 1021, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1027, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer {
   background-color: #0b3b49;
   padding: 2rem 0;
   color: #fff;
 }
 
-/* line 1025, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1031, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer a h4 {
   color: #fff;
   font-weight: normal;
@@ -11215,12 +11223,12 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   float: left;
 }
 
-/* line 1034, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1040, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .cell:last-child a h4 {
   border-right: 0;
 }
 
-/* line 1036, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1042, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer span {
   display: inline-block;
   background-color: #fff;
@@ -11230,68 +11238,68 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   float: left;
 }
 
-/* line 1043, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1049, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer i {
   font-size: 2rem;
   display: inline-block;
   position: relative;
 }
 
-/* line 1048, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1054, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter h4 {
   padding-left: 10%;
 }
 
-/* line 1050, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1056, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter i {
   float: left;
   color: #fff;
   margin: 5px 0 0 10px;
 }
 
-/* line 1054, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1060, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter .fi-arrow-right:before {
   content: "\f10b";
 }
 
-/* line 1057, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1063, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter:hover h4 {
   color: #bbdde6;
 }
 
-/* line 1059, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1065, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter:hover i {
   animation: outandback .3s ease-in 1;
 }
 
-/* line 1062, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1068, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news span {
   margin: 10px 15px 0 20px;
   padding: 0 0 0 6px;
 }
 
-/* line 1065, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1071, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news span i {
   line-height: 2.75rem;
   color: #ffa400;
 }
 
-/* line 1068, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1074, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news span .fi-megaphone:before {
   transform: rotate(-15deg);
 }
 
-/* line 1071, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1077, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news:hover h4 {
   color: #bbdde6;
 }
 
-/* line 1073, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1079, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news:hover span {
   animation: push 0.3s ease-out 1;
 }
 
-/* line 1076, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1082, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .social h4 {
   font-weight: normal;
   text-align: center;
@@ -11302,29 +11310,29 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   float: left;
 }
 
-/* line 1084, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1090, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .social span {
   margin: 10px 5px;
   padding: 0 0 0 8px;
 }
 
-/* line 1087, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1093, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .social span i {
   line-height: 2.75rem;
   color: #0b3b49;
 }
 
-/* line 1090, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1096, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .social span:hover {
   animation: push 0.3s ease-out 1;
 }
 
-/* line 1092, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1098, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter, .top-footer .latest-news {
   position: relative;
 }
 
-/* line 1094, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1100, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter:after, .top-footer .latest-news:after {
   content: "";
   position: absolute;
@@ -11333,17 +11341,17 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   background-color: #406c77;
 }
 
-/* line 1100, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1106, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .newsletter:after {
   right: 15px;
 }
 
-/* line 1102, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1108, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .top-footer .latest-news:after {
   right: 45px;
 }
 
-/* line 1106, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1112, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .colorBar {
   background: url("../images/footer-color-bar.jpg") repeat top left;
   height: 28px;
@@ -11351,19 +11359,19 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   border-top: 1px solid #fff;
 }
 
-/* line 1112, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1118, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer {
   padding: 2rem 2rem 0;
   text-transform: uppercase;
 }
 
-/* line 1115, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1121, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell {
   position: relative;
   margin-top: .75rem;
 }
 
-/* line 1119, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1125, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:after {
   content: "";
   position: absolute;
@@ -11374,17 +11382,17 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   right: -10px;
 }
 
-/* line 1127, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1133, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:nth-child(4):after, .bottom-footer .cell:nth-child(5):after {
   display: none;
 }
 
-/* line 1129, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1135, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:nth-child(1) {
   margin-top: 0;
 }
 
-/* line 1131, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1137, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:nth-child(2) p {
   font-weight: normal;
   text-transform: none;
@@ -11392,49 +11400,49 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   line-height: 1.3rem;
 }
 
-/* line 1136, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1142, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer h2 {
   font-family: "Arial", sans-serif;
   font-size: 1rem;
   text-transform: uppercase;
 }
 
-/* line 1140, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1146, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer p {
   font-size: .8rem;
   line-height: 1rem;
   font-weight: bold;
 }
 
-/* line 1144, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1150, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul {
   margin-left: 0;
   list-style-type: none;
 }
 
-/* line 1147, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1153, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul li a {
   font-weight: bold;
   font-size: .8rem;
   padding: .25rem 0;
 }
 
-/* line 1151, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1157, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer img.footerLogo {
   margin-bottom: 1rem;
 }
 
-/* line 1153, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1159, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .cell:first-child p {
   margin-left: 7rem;
 }
 
-/* line 1155, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1161, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .copy {
   border-top: 1px solid #ececec;
 }
 
-/* line 1157, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1163, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer .copy p.copyright {
   margin: 0;
   padding: .75rem 0;
@@ -11442,30 +11450,30 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   text-transform: none;
 }
 
-/* line 1162, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1168, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.missionLogos li {
   width: 30%;
   float: left;
   margin-right: 10px;
 }
 
-/* line 1166, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1172, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.missionLogos li a:hover img {
   opacity: .7;
 }
 
-/* line 1168, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1174, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.missionLogos li:first-child {
   width: 65%;
   margin-bottom: 1rem;
 }
 
-/* line 1171, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1177, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.missionLogos li:last-child img {
   max-height: 67px;
 }
 
-/* line 1173, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1179, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.quickLinks li {
   width: 45%;
   float: left;
@@ -11473,12 +11481,12 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
   margin: 0 .5rem .25rem 0;
 }
 
-/* line 1178, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1184, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.quickLinks li a {
   font-weight: normal;
 }
 
-/* line 1180, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1186, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .bottom-footer ul.adminLinks + p {
   text-transform: none;
   font-weight: normal;
@@ -11486,12 +11494,12 @@ body.home #bulletin2 .cell.twitter li#do-etfw-2 {
 
 /********************************/
 /********************************/
-/* line 1189, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1195, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .inner-content {
   margin-top: 0;
 }
 
-/* line 1191, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1197, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .location {
   border-bottom: 1px solid #e4e4e4;
   margin: 2rem 0 1rem;
@@ -11499,7 +11507,7 @@ body.page-template-directions-locations .location {
   min-height: 177px;
 }
 
-/* line 1196, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1202, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .location span.circle {
   background: #0d88cd;
   color: #fff;
@@ -11514,19 +11522,19 @@ body.page-template-directions-locations .location span.circle {
   padding: 2px;
 }
 
-/* line 1208, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1214, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .location h4 {
   font-size: 1.25rem;
 }
 
-/* line 1210, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1216, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.page-template-directions-locations .location p {
   line-height: 1.25rem;
 }
 
 /********************************/
 /********************************/
-/* line 1219, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1225, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.whowehelp .entry-content h3 {
   background-color: #809da3;
   color: #fff;
@@ -11534,7 +11542,7 @@ div.whowehelp .entry-content h3 {
   border-top-left-radius: 20px;
 }
 
-/* line 1235, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1241, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .card {
   width: 45%;
   margin-right: 2%;
@@ -11544,33 +11552,33 @@ div.whowehelp .entry-content h3 {
 
 /********************************/
 /********************************/
-/* line 1246, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1252, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series header.article-header {
   margin-bottom: .5rem;
 }
 
-/* line 1248, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1254, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series header.article-header h2 {
   font-size: 1.5rem;
 }
 
-/* line 1250, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1256, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series article {
   margin-bottom: 3rem;
 }
 
-/* line 1252, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1258, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series h3.series {
   margin-bottom: 2rem;
   border-bottom: 5px solid #ececde;
 }
 
-/* line 1255, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1261, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series h3.series i {
   padding-left: 15px;
 }
 
-/* line 1258, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1264, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series p.tags, .article-footer p.tags {
   font-size: .9rem;
   font-weight: bold;
@@ -11579,32 +11587,32 @@ body.category-community-education-series p.tags, .article-footer p.tags {
   text-transform: uppercase;
 }
 
-/* line 1264, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1270, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series p.tags span, .article-footer p.tags span {
   padding: 0 .5rem 0 0;
   border-radius: 3px;
   font-weight: normal;
 }
 
-/* line 1268, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1274, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 body.category-community-education-series p.tags span.episode, .article-footer p.tags span.episode {
   display: inline-block;
   margin-left: .8rem;
 }
 
-/* line 1272, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1278, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .return {
   margin-top: 2rem;
 }
 
-/* line 1275, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1281, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .taxonomy-description {
   margin-top: 2rem;
 }
 
 /********************************/
 /********************************/
-/* line 1283, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1289, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .category-special-events h1.page-title {
   text-align: center;
   padding: 2rem 0 1rem;
@@ -11612,17 +11620,17 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
   margin-bottom: 3rem;
 }
 
-/* line 1288, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1294, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .category-special-events .article {
   margin: 3rem 0;
 }
 
-/* line 1291, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1297, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .date-wrap {
   text-align: center;
 }
 
-/* line 1293, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1299, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .date-wrap .month {
   background: #e5f2f3;
   border-top-left-radius: 5px;
@@ -11631,7 +11639,7 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
   padding: .25rem;
 }
 
-/* line 1299, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1305, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .date-wrap .day {
   font-size: 3rem;
   line-height: 3rem;
@@ -11639,7 +11647,7 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
   border-right: 2px solid #e5f2f3;
 }
 
-/* line 1304, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1310, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .date-wrap .year {
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
@@ -11648,31 +11656,31 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
   padding: .25rem;
 }
 
-/* line 1312, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1318, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .single-event .entry-title.single-title {
   padding-bottom: 2rem;
 }
 
-/* line 1314, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1320, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .single-event .article-header {
   overflow: hidden;
 }
 
-/* line 1316, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1322, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .single-event .date-wrap {
   width: 50%;
   float: left;
   margin-right: 5%;
 }
 
-/* line 1320, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1326, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .single-event p.tags {
   font-weight: bold;
   float: left;
   width: 45%;
 }
 
-/* line 1324, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1330, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .single-event p.tags span {
   padding-bottom: .5rem;
   display: inline-block;
@@ -11681,18 +11689,18 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
 
 /********************************/
 /********************************/
-/* line 1334, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1340, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .publications .cell {
   margin-bottom: 2rem;
   padding: 1rem 1rem 0;
 }
 
-/* line 1337, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1343, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .publications .cell:hover {
   background-color: #e5ebec;
 }
 
-/* line 1341, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1347, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .publications h2 {
   line-height: 2.5rem;
   margin: 1rem 0;
@@ -11700,7 +11708,7 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
 
 /********************************/
 /********************************/
-/* line 1353, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1359, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.wpcf7 label {
   font-size: 1rem;
   font-weight: bold;
@@ -11708,7 +11716,7 @@ div.wpcf7 label {
   color: #7b7b7b;
 }
 
-/* line 1360, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1366, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
   border-radius: 10px;
   background-color: #ff3a1e;
@@ -11719,12 +11727,12 @@ div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
 
 /********************************/
 /********************************/
-/* line 1372, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1378, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a.burmese, div.burmese {
   font-family: "Padauk", sans-serif;
 }
 
-/* line 1376, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1382, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 li.trouble img {
   height: 33px;
 }
