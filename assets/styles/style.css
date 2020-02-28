@@ -11681,7 +11681,26 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
 
 /********************************/
 /********************************/
-/* line 1336, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1334, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+.publications .cell {
+  margin-bottom: 2rem;
+  padding: 1rem 1rem 0;
+}
+
+/* line 1337, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+.publications .cell:hover {
+  background-color: #e5ebec;
+}
+
+/* line 1341, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+.publications h2 {
+  line-height: 2.5rem;
+  margin: 1rem 0;
+}
+
+/********************************/
+/********************************/
+/* line 1353, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.wpcf7 label {
   font-size: 1rem;
   font-weight: bold;
@@ -11689,7 +11708,7 @@ div.wpcf7 label {
   color: #7b7b7b;
 }
 
-/* line 1343, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1360, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
   border-radius: 10px;
   background-color: #ff3a1e;
@@ -11700,12 +11719,12 @@ div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
 
 /********************************/
 /********************************/
-/* line 1355, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1372, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a.burmese, div.burmese {
   font-family: "Padauk", sans-serif;
 }
 
-/* line 1359, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1376, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 li.trouble img {
   height: 33px;
 }
