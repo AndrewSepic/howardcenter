@@ -11693,22 +11693,31 @@ body.category-community-education-series p.tags span.episode, .article-footer p.
 .publications .cell {
   margin-bottom: 2rem;
   padding: 1rem 1rem 0;
+  border: 1px solid #c3c3c3;
 }
 
-/* line 1343, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1344, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .publications .cell:hover {
   background-color: #e5ebec;
 }
 
-/* line 1347, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1348, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 .publications h2 {
-  line-height: 2.5rem;
   margin: 1rem 0;
+  color: #3094b1;
+  font-size: 1.2rem;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+/* line 1354, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+.publications h2:hover {
+  color: #206a80;
 }
 
 /********************************/
 /********************************/
-/* line 1359, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1364, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.wpcf7 label {
   font-size: 1rem;
   font-weight: bold;
@@ -11716,7 +11725,7 @@ div.wpcf7 label {
   color: #7b7b7b;
 }
 
-/* line 1366, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1371, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
   border-radius: 10px;
   background-color: #ff3a1e;
@@ -11727,12 +11736,12 @@ div.wpcf7-mail-sent-ng, div.wpcf7-aborted {
 
 /********************************/
 /********************************/
-/* line 1378, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1383, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 a.burmese, div.burmese {
   font-family: "Padauk", sans-serif;
 }
 
-/* line 1382, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
+/* line 1387, ../../../../../../../../../../../../../Users/andrewsepic/howardcenter/assets/styles/scss/_howard.sass */
 li.trouble img {
   height: 33px;
 }

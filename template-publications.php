@@ -27,7 +27,7 @@ get_header(); ?>
 						// loop through the rows of data
 							while ( have_rows('publications') ) : the_row(); ?>
 
-							<div class="cell small-12 medium-4 large-3">
+							<div class="cell small-12 medium-6 large-3">
 								<a class="pubLink" href="<?php the_sub_field('pub_link');?>">
 									<img class="cover" src="<?php the_sub_field('pub_image');?>"/>
 									<h2><?php the_sub_field('pub_title');?></h2>
