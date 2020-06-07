@@ -15,7 +15,11 @@ if( get_field('activate', 'option' ) ): ?>
    elseif( get_field('type_of_announcement', 'option') == 'emergency'):
      $type = 'emergency';
      $icon = "alert";
-   endif; ?>
+   elseif( get_field('type_of_announcement', 'option') == 'relaxed'):
+     $type = 'relaxed';
+     $icon = "info";
+  endif;
+  ?>
 
   <div class="announcement <?php echo $type ?> grid-x grid-padding-x" style="display:none;">
     <div class="cell small-12 large-12">
