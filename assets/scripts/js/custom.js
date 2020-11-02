@@ -71,5 +71,23 @@ jQuery(document).ready(function($) {
 });
 
 
+testBrowser();
+
+function testBrowser() {
+  // Internet Explorer 6-11
+  var isIE = /*@cc_on!@*/false || !!document.documentMode;
+
+  if (isIE == true) {
+    var translateBlock = $('#menu-utility-links-1 li.gtranslate-parent a');
+    translateBlock.html('Switch to another browser to Translate this site');
+    translateBlock.css('padding-left','45px');
+    translateBlock.next().hide();
+    $('#menu-utility-links-1 li.gtranslate-parent').removeClass('is-dropdown-submenu-parent');
+  }
+
+}
+
+
+
 //End Document Ready
 });
